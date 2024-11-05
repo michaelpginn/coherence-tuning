@@ -4,8 +4,8 @@ import transformers
 
 
 def tune_model(base_model_key: str):
-    tokenizer = transformers.AutoTokenizer.from_pretrained(model_key)
-    model = transformers.AutoModel.from_pretrained(model_key)
+    tokenizer = transformers.AutoTokenizer.from_pretrained(base_model_key)
+    model = transformers.AutoModel.from_pretrained(base_model_key)
 
     # TODO: Run DPO training with the base model.
     # DPO should be implemented in HuggingFace already,
