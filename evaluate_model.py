@@ -1,28 +1,33 @@
 """Evaluate a trained LLM using the test set."""
 
 import argparse
+import math
 import typing
 from typing import cast
 
 import datasets
 import torch
 import transformers
+from tqdm import tqdm
 
 
-def evaluate_model(model_key: str):
-    tokenizer = transformers.AutoTokenizer.from_pretrained(model_key)
-    model = transformers.AutoModelForCausalLM.from_pretrained(model_key)
-    dataset = datasets.load_dataset("lecslab/story_cloze")
-    dataset = cast(datasets.DatasetDict, dataset)
-
-    # TODO: For each example in the test set, compute
-    # the average log likelihood of the chosen and rejected sentences.
+def evaluate_model(
+    test_dataset: datasets.Dataset,
+    model: transformers.PreTrainedModel,
+    tokenizer: transformers.PreTrainedTokenizerFast,
+):
+    # For each example in the test set, compute
+    # the average negative log likelihood (aka crossentropy) of the chosen and
+    # rejected sentences.
     #
     # We can then compute metrics such as:
-    # - F1 score (how often does the model assign higher probability to `chosen`)
-    # - Average difference between P(chosen) - P(rejected)
+    # - Average score (how often does the model assign higher probability to `chosen`)
+    # - Mean difference between P(chosen) - P(rejected)
 
-    for row in dataset["test"]:
+    wins = 0  # How many times does the model prefer the chosen completion?
+    margins = []  # Average nll_reject - nll_chosen, wider margin is better
+
+    for row in tqdm(test_dataset, desc="Running inference..."):
         row = cast(typing.Mapping, row)
 
         # FIXME: This is a bit inefficient, because we recompute logits for
@@ -34,22 +39,52 @@ def evaluate_model(model_key: str):
         chosen_inputs = tokenizer(row["prefix"] + row["chosen"], return_tensors="pt")
         reject_inputs = tokenizer(row["prefix"] + row["rejected"], return_tensors="pt")
 
-        chosen_logits = model(**chosen_inputs).logits
+        chosen_logits = model(
+            **chosen_inputs
+        ).logits  # [batch_size (1), seq_len, vocab_size]
         reject_logits = model(**reject_inputs).logits
 
         # Slice just the logits corresponding to the chosen/rejected sentence
-        chosen_logits = chosen_logits[:, prefix_len - 1 : -1, :]
-        reject_logits = reject_logits[:, prefix_len - 1 : -1, :]
+        chosen_logits = chosen_logits[:, prefix_len - 1 :, :]
+        reject_logits = reject_logits[:, prefix_len - 1 :, :]
+
+        chosen_input_ids = chosen_inputs["input_ids"][:, prefix_len - 1 :]
+        reject_input_ids = reject_inputs["input_ids"][:, prefix_len - 1 :]
 
         log_softmax = torch.nn.LogSoftmax(dim=-1)
-        chosen_probs, reject_probs = (
-            log_softmax(chosen_logits),
-            log_softmax(reject_logits),
-        )
+        chosen_probs: torch.Tensor = log_softmax(chosen_logits)
+        reject_probs: torch.Tensor = log_softmax(reject_logits)
 
-        breakpoint()
+        # Gather log-probs for actual tokens in chosen/rejected sequences
+        chosen_model_probs = torch.gather(
+            chosen_probs, -1, chosen_input_ids.unsqueeze(-1)
+        ).squeeze(-1)
+        reject_model_probs = torch.gather(
+            reject_probs, -1, reject_input_ids.unsqueeze(-1)
+        ).squeeze(-1)
 
-    return {}
+        nll_chosen = -chosen_model_probs.mean(dim=-1)
+        nll_reject = -reject_model_probs.mean(dim=-1)
+
+        # Sanity check
+        gold_fn = torch.nn.CrossEntropyLoss(reduction="none")
+        correct_loss = gold_fn(chosen_logits.permute(0, 2, 1), chosen_input_ids)
+        if not torch.all(torch.isclose(correct_loss, -chosen_model_probs, atol=1e-3)):
+            raise Exception(
+                f"⛔️ Mismatch!!! Correct: {correct_loss}, predicted: {-chosen_model_probs}"
+            )
+
+        wins += torch.sum(nll_chosen < nll_reject)
+        margins.extend((nll_reject - nll_chosen).tolist())
+
+    mean_margin = math.exp(
+        -1 * sum(margins) / len(margins)
+    )  # Convert back to probability
+
+    return {
+        "average": wins / len(test_dataset),
+        "mean_margin": mean_margin,
+    }
 
 
 if __name__ == "__main__":
@@ -61,4 +96,12 @@ if __name__ == "__main__":
         default="openai-community/gpt2",
     )
     args = parser.parse_args()
-    evaluate_model(args.model_key)
+
+    tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_key)
+    model = transformers.AutoModelForCausalLM.from_pretrained(args.model_key)
+    dataset = datasets.load_dataset("lecslab/story_cloze")
+    dataset = cast(datasets.DatasetDict, dataset)
+
+    print(
+        evaluate_model(test_dataset=dataset["test"], model=model, tokenizer=tokenizer)
+    )
