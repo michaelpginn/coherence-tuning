@@ -10,12 +10,19 @@ import torch
 import transformers
 from tqdm import tqdm
 
+device = (
+    "cuda"
+    if torch.cuda.is_available()
+    else ("mps" if torch.backends.mps.is_available() else "cpu")
+)
+
 
 def evaluate_model(
     test_dataset: datasets.Dataset,
     model: transformers.PreTrainedModel,
     tokenizer: transformers.PreTrainedTokenizerFast,
 ):
+    model = model.to(device)
     # For each example in the test set, compute
     # the average negative log likelihood (aka crossentropy) of the chosen and
     # rejected sentences.
@@ -34,10 +41,22 @@ def evaluate_model(
         # the same prefix twice. We should instead input the prefix
         # to the model with `use_cache=True` to get the KV values,
         # then provide these as `past_key_values` for the chosen/rejected inputs
-        prefix_len = tokenizer(row["prefix"], return_tensors="pt")["input_ids"].size(-1)
+        prefix_inputs = tokenizer(row["prefix"], return_tensors="pt").to(device)
+        prefix_len = prefix_inputs["input_ids"].size(-1)
 
-        chosen_inputs = tokenizer(row["prefix"] + row["chosen"], return_tensors="pt")
-        reject_inputs = tokenizer(row["prefix"] + row["rejected"], return_tensors="pt")
+        original_completion = tokenizer.batch_decode(
+            model.generate(
+                **prefix_inputs,
+                generation_config=transformers.GenerationConfig(max_new_tokens=32),
+            )
+        )
+
+        chosen_inputs = tokenizer(
+            row["prefix"] + " " + row["chosen"], return_tensors="pt"
+        ).to(device)
+        reject_inputs = tokenizer(
+            row["prefix"] + " " + row["rejected"], return_tensors="pt"
+        ).to(device)
 
         chosen_logits = model(
             **chosen_inputs
@@ -45,11 +64,10 @@ def evaluate_model(
         reject_logits = model(**reject_inputs).logits
 
         # Slice just the logits corresponding to the chosen/rejected sentence
-        chosen_logits = chosen_logits[:, prefix_len - 1 :, :]
-        reject_logits = reject_logits[:, prefix_len - 1 :, :]
-
-        chosen_input_ids = chosen_inputs["input_ids"][:, prefix_len - 1 :]
-        reject_input_ids = reject_inputs["input_ids"][:, prefix_len - 1 :]
+        chosen_logits = chosen_logits[:, prefix_len:, :]
+        reject_logits = reject_logits[:, prefix_len:, :]
+        chosen_input_ids = chosen_inputs["input_ids"][:, prefix_len:]
+        reject_input_ids = reject_inputs["input_ids"][:, prefix_len:]
 
         log_softmax = torch.nn.LogSoftmax(dim=-1)
         chosen_probs: torch.Tensor = log_softmax(chosen_logits)
@@ -74,7 +92,7 @@ def evaluate_model(
                 f"⛔️ Mismatch!!! Correct: {correct_loss}, predicted: {-chosen_model_probs}"
             )
 
-        wins += torch.sum(nll_chosen < nll_reject)
+        wins += torch.sum(nll_chosen < nll_reject).item()
         margins.extend((nll_reject - nll_chosen).tolist())
 
     mean_margin = math.exp(
@@ -99,6 +117,7 @@ if __name__ == "__main__":
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_key)
     model = transformers.AutoModelForCausalLM.from_pretrained(args.model_key)
+
     dataset = datasets.load_dataset("lecslab/story_cloze")
     dataset = cast(datasets.DatasetDict, dataset)
 
