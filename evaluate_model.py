@@ -44,6 +44,7 @@ def evaluate_model(
         prefix_inputs = tokenizer(row["prefix"], return_tensors="pt").to(device)
         prefix_len = prefix_inputs["input_ids"].size(-1)
 
+        # Check what the model would generate on its own
         original_completion = tokenizer.batch_decode(
             model.generate(
                 **prefix_inputs,
@@ -64,10 +65,10 @@ def evaluate_model(
         reject_logits = model(**reject_inputs).logits
 
         # Slice just the logits corresponding to the chosen/rejected sentence
-        chosen_logits = chosen_logits[:, prefix_len:, :]
-        reject_logits = reject_logits[:, prefix_len:, :]
-        chosen_input_ids = chosen_inputs["input_ids"][:, prefix_len:]
-        reject_input_ids = reject_inputs["input_ids"][:, prefix_len:]
+        chosen_logits = chosen_logits[:, prefix_len - 1 : -1, :]
+        reject_logits = reject_logits[:, prefix_len - 1 : -1, :]
+        chosen_input_ids = chosen_inputs["input_ids"][:, prefix_len - 1 : -1]
+        reject_input_ids = reject_inputs["input_ids"][:, prefix_len - 1 : -1]
 
         log_softmax = torch.nn.LogSoftmax(dim=-1)
         chosen_probs: torch.Tensor = log_softmax(chosen_logits)
