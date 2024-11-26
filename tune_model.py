@@ -5,6 +5,7 @@ import datasets
 import trl
 from typing import cast
 import argparse
+import wandb
 
 from evaluate_model import evaluate_model
 
@@ -16,7 +17,7 @@ def tune_model(
     if not tokenizer.pad_token:
         tokenizer.pad_token = tokenizer.eos_token
 
-    training_config = trl.DPOConfig(output_dir="dpo-model")
+    training_config = trl.DPOConfig(output_dir="dpo-model", report_to="wandb")
     trainer = trl.DPOTrainer(
         model=model,
         args=training_config,
@@ -37,6 +38,8 @@ if __name__ == "__main__":
         default="openai-community/gpt2",
     )
     args = parser.parse_args()
+
+    wandb.init(entity="lecs-general", project="coherence-tuning")
 
     dataset = datasets.load_dataset("lecslab/story_cloze")
     dataset = cast(datasets.DatasetDict, dataset)

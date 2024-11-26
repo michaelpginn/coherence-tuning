@@ -41,22 +41,22 @@ def evaluate_model(
         # the same prefix twice. We should instead input the prefix
         # to the model with `use_cache=True` to get the KV values,
         # then provide these as `past_key_values` for the chosen/rejected inputs
-        prefix_inputs = tokenizer(row["prefix"], return_tensors="pt").to(device)
+        prefix_inputs = tokenizer(row["prompt"], return_tensors="pt").to(device)
         prefix_len = prefix_inputs["input_ids"].size(-1)
 
         # Check what the model would generate on its own
-        original_completion = tokenizer.batch_decode(
-            model.generate(
-                **prefix_inputs,
-                generation_config=transformers.GenerationConfig(max_new_tokens=32),
-            )
-        )
+        # original_completion = tokenizer.batch_decode(
+        #     model.generate(
+        #         **prefix_inputs,
+        #         generation_config=transformers.GenerationConfig(max_new_tokens=32),
+        #     )
+        # )
 
         chosen_inputs = tokenizer(
-            row["prefix"] + " " + row["chosen"], return_tensors="pt"
+            row["prompt"] + " " + row["chosen"], return_tensors="pt"
         ).to(device)
         reject_inputs = tokenizer(
-            row["prefix"] + " " + row["rejected"], return_tensors="pt"
+            row["prompt"] + " " + row["rejected"], return_tensors="pt"
         ).to(device)
 
         chosen_logits = model(
