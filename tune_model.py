@@ -16,7 +16,7 @@ def tune_model(
     if not tokenizer.pad_token:
         tokenizer.pad_token = tokenizer.eos_token
 
-    training_config = trl.DPOConfig(output_dir="dpo-model", use_cpu=True)
+    training_config = trl.DPOConfig(output_dir="dpo-model")
     trainer = trl.DPOTrainer(
         model=model,
         args=training_config,
