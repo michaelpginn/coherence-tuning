@@ -54,6 +54,5 @@ if __name__ == "__main__":
 
     # Run another evaluation
     print("Final evaluation:")
-    print(
-        evaluate_model(test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer)
-    )
+    test_metrics = evaluate_model(test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer)
+    wandb.log(test_metrics)

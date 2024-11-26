@@ -101,8 +101,8 @@ def evaluate_model(
     )  # Convert back to probability
 
     return {
-        "average": wins / len(test_dataset),
-        "mean_margin": mean_margin,
+        "test/average": wins / len(test_dataset),
+        "test/mean_margin": mean_margin,
     }
 
 
