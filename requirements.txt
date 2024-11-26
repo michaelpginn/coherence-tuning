@@ -3,3 +3,4 @@ torch>=2.2.0
 transformers==4.46.2
 trl==0.12.1
 numpy<2
+wandb

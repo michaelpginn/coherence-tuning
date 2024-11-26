@@ -17,7 +17,11 @@ def tune_model(
     if not tokenizer.pad_token:
         tokenizer.pad_token = tokenizer.eos_token
 
-    training_config = trl.DPOConfig(output_dir="dpo-model", report_to="wandb")
+    training_config = trl.DPOConfig(
+        num_train_epochs=50,
+        output_dir="dpo-model",
+        report_to="wandb"
+    )
     trainer = trl.DPOTrainer(
         model=model,
         args=training_config,
