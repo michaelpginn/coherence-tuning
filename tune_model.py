@@ -1,19 +1,52 @@
 """Run DPO tuning on a pretrained model"""
 
 import transformers
+import datasets
+import trl
+from typing import cast
+import argparse
 
+from evaluate_model import evaluate_model
 
-def tune_model(base_model_key: str):
-    tokenizer = transformers.AutoTokenizer.from_pretrained(base_model_key)
-    model = transformers.AutoModel.from_pretrained(base_model_key)
+def tune_model(
+    dataset: datasets.DatasetDict,
+    model: transformers.PreTrainedModel,
+    tokenizer: transformers.PreTrainedTokenizerFast,
+):
+    if not tokenizer.pad_token:
+        tokenizer.pad_token = tokenizer.eos_token
 
-    # TODO: Run DPO training with the base model.
-    # DPO should be implemented in HuggingFace already,
-    # but the key idea is to compute the logits for
-    # the rejected and chosen sentence, given the prefix text.
-    #
-    # Then, the DPO loss is computed with the two sets of logits,
-    # attempting to maximize the difference in probability
-    # P(chosen) - P(rejected).
-    #
-    # During training, we should just report evaluation loss and maybbbbe F1 score.
+    training_config = trl.DPOConfig(output_dir="dpo-model", use_cpu=True)
+    trainer = trl.DPOTrainer(
+        model=model,
+        args=training_config,
+        processing_class=tokenizer,
+        train_dataset=dataset['train'],
+        eval_dataset=dataset['eval']
+    )
+    trainer.train()
+
+    return model
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-m",
+        "--model_key",
+        help="A HuggingFace model key",
+        default="openai-community/gpt2",
+    )
+    args = parser.parse_args()
+
+    dataset = datasets.load_dataset("lecslab/story_cloze")
+    dataset = cast(datasets.DatasetDict, dataset)
+    model = transformers.AutoModelForCausalLM.from_pretrained(args.model_key)
+    tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_key)
+
+    trained_model = tune_model(dataset=dataset, model=model, tokenizer=tokenizer)
+
+    # Run another evaluation
+    print("Final evaluation:")
+    print(
+        evaluate_model(test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer)
+    )
