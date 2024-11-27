@@ -18,6 +18,9 @@ def tune_model(
         tokenizer.pad_token = tokenizer.eos_token
 
     training_config = trl.DPOConfig(
+        do_train=True,
+        do_eval=True,
+        eval_strategy="epoch",
         num_train_epochs=50,
         output_dir="dpo-model",
         report_to="wandb"
