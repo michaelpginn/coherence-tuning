@@ -21,7 +21,7 @@ def tune_model(
         do_train=True,
         do_eval=True,
         eval_strategy="epoch",
-        num_train_epochs=50,
+        num_train_epochs=75,
         output_dir="dpo-model",
         report_to="wandb"
     )
@@ -53,9 +53,10 @@ if __name__ == "__main__":
     model = transformers.AutoModelForCausalLM.from_pretrained(args.model_key)
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_key)
 
+    wandb.log(evaluate_model(test_dataset=dataset["test"], model=model, tokenizer=tokenizer))
+
     trained_model = tune_model(dataset=dataset, model=model, tokenizer=tokenizer)
 
     # Run another evaluation
     print("Final evaluation:")
-    test_metrics = evaluate_model(test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer)
-    wandb.log(test_metrics)
+    wandb.log(evaluate_model(test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer))
