@@ -17,5 +17,5 @@ module load gcc/11.2.0
 module load mambaforge
 mamba activate coherence-tuning
 
-cd /projects/$USER/coherence-tuning
-python tune_model.py --model_key openai-community/gpt2
+cd /projects/$USER/porc/src/
+python tune_model.py --model_key "meta-llama/Llama-3.2-1B"
