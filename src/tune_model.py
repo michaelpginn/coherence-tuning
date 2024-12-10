@@ -10,6 +10,7 @@ import wandb
 from evaluate_model import evaluate_model
 
 def tune_model(
+    output_dir: str,
     dataset: datasets.DatasetDict,
     model: transformers.PreTrainedModel,
     tokenizer: transformers.PreTrainedTokenizerFast,
@@ -23,7 +24,7 @@ def tune_model(
         do_eval=True,
         eval_strategy="epoch",
         num_train_epochs=75,
-        output_dir="dpo-model",
+        output_dir=output_dir,
         report_to="wandb",
         loss_type=loss_fn
     )
@@ -40,6 +41,11 @@ def tune_model(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-o",
+        "--output_dir",
+        default="checkpoints",
+    )
     parser.add_argument(
         "-m",
         "--model_key",
@@ -68,6 +74,7 @@ if __name__ == "__main__":
     wandb.log(evaluate_model(test_dataset=dataset["test"], model=model, tokenizer=tokenizer))
 
     trained_model = tune_model(
+        output_dir=args.output_dir,
         dataset=dataset,
         model=model,
         tokenizer=tokenizer,
