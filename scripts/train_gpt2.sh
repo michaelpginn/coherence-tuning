@@ -15,7 +15,11 @@
 module purge
 module load gcc/11.2.0
 module load mambaforge
-mamba activate coherence-tuning
+mamba activate coherence-tuning # create this if needed
 
-cd /projects/$USER/coherence-tuning
-python tune_model.py --model_key openai-community/gpt2
+cd /projects/$USER/porc/src/
+
+for loss in hinge ipo nca_pair robust 
+do
+	python tune_model.py --output_dir "/scratch/alpine/${USER}/porc/gpt2" --loss_fn $loss
+done
