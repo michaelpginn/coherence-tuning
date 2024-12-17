@@ -28,7 +28,7 @@ def tune_model(
         num_train_epochs=75,
         output_dir=output_dir,
         report_to="wandb",
-        loss_type=loss_fn,
+        loss_type=loss_fn, # type:ignore
         save_total_limit=3,
     )
     trainer = trl.DPOTrainer(
