@@ -18,7 +18,7 @@ if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
 
-def generate_text(sentence, temp = 1):
+def generate_text(sentence, temp: float = 1):
     inputs = tokenizer(sentence,  padding=True, truncation=True, return_tensors="pt").to(device)
     with torch.no_grad():
         outputs = model.generate(**inputs, do_sample = True ,max_length=2*(inputs['input_ids'].size()[1]), temperature = temp, repetition_penalty=2.0)  # Adjust max_length as needed
@@ -30,7 +30,7 @@ def generate_text(sentence, temp = 1):
 with_generated_texts = []
 
 
-# Process the dataset 
+# Process the dataset
 
 loading_from_ds = False ## if choosing random instances for a model. If working with previous examples, should load teh file instead
 previous_file_path = 'generated_texts_gpt2_0.3.json' ## set only if loading_from_ds is False

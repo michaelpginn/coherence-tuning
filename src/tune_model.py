@@ -22,10 +22,13 @@ def tune_model(
         tokenizer.pad_token = tokenizer.eos_token
 
     training_config = trl.DPOConfig(
+        label_smoothing=0.5 if loss_fn == "robust" else 0,
         do_train=True,
         do_eval=True,
         eval_strategy="epoch",
         num_train_epochs=75,
+        per_device_train_batch_size=4,
+        per_device_eval_batch_size=4,
         output_dir=output_dir,
         report_to="wandb",
         loss_type=loss_fn, # type:ignore
@@ -36,7 +39,7 @@ def tune_model(
         args=training_config,
         processing_class=tokenizer,
         train_dataset=dataset["train"],
-        eval_dataset=dataset["eval"],
+        eval_dataset=dataset["eval"] if "eval" in dataset else dataset["test"],
     )
     trainer.train()
 
@@ -62,15 +65,16 @@ if __name__ == "__main__":
         help="See https://huggingface.co/docs/trl/main/en/dpo_trainer#loss-functions",
         default="sigmoid",
     )
+    parser.add_argument("-d", "--dataset", default="lecslab/story_cloze")
     args = parser.parse_args()
 
     wandb.init(
         entity="lecs-general",
         project="coherence-tuning",
-        config={"model_key": args.model_key, "loss_fn": args.loss_fn},
+        config={"model_key": args.model_key, "loss_fn": args.loss_fn, "dataset": args.dataset},
     )
 
-    dataset = datasets.load_dataset("lecslab/story_cloze")
+    dataset = datasets.load_dataset(args.dataset)
     dataset = cast(datasets.DatasetDict, dataset)
     model = transformers.AutoModelForCausalLM.from_pretrained(args.model_key)
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_key)
