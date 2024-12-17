@@ -1,0 +1,18 @@
+
+
+From Llama completeions:
+
+
+## one better than the other
+
+{
+    "story": "Cara loved Tamales. She and her grandmother made tamales every year at Christmas. Unfortunately, her grandmother passed away one day. When Christmas came, Cara made the tamales anyway.",
+    "generated_text_1": " But she didn\u2019t have any corn husks to wrap them in.\n\u201cTaco Bell has a new recipe for taco salad,\u201d said Taco Salad Guy as he walked into his restaurant with two tacos on each hand",
+    "generated_text_2": " But she didn\u2019t have any of those special ingredients that Grandma used to make them with.\nShe had a few things in mind for making good-tasting tamale filling but none were quite right until\u2026she found",
+    "better_option": 2
+  },
+
+
+
+
+
