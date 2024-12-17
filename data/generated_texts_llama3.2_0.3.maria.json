@@ -1,0 +1,902 @@
+[
+  {
+    "story": "James wasn't into soccer, but he played it anyways. He was actually a great player. Eventually he was offered a scholarship to play for TCU. He wanted to go to college so he kept playing.",
+    "generated_text_1": " After his sophomore year at the University of Texas (UT) in Austin James decided that maybe this is what I want.\nHe had been recruited by several schools including UT and SMU as well some other smaller programs like",
+    "generated_text_2": " It took him 4 years of hard work and dedication before his dream came true.\nHe went on the field one day with no pads or helmet because that's what they did in high school football back then (I",
+    "better_option": 1
+  },
+  {
+    "story": "Jenny is very thirsty. She suspects she is dehydrated. Finally, she was able to find a water bottle. She drank the whole thing.",
+    "generated_text_1": " What happened?\nA) Jenny became more hydrated.\nB ) The amount of fluid in her body decreased by 1%.\nC \u00a0\u00a0The volume that filled up",
+    "generated_text_2": " What happened?\nA) Jenny became hydrated.\nB ) The amount of fluid in her body increased by 1 liter\nC \u00a0\u00a0The volume and weight both",
+    "better_option": 2
+  },
+  {
+    "story": "Pablo wanted a jawbreaker. He had no money however. He went through his closet to see what he could sell. He found a toy bear and sold it for 50 cents.",
+    "generated_text_1": " Then, Pablo decided that if the price was right then maybe there would be more people who were willing pay him.\nHe started selling toys in front of stores on Main Street as well at other places",
+    "generated_text_2": " The next day, Pablo got another piece of candy from the same store.\nHe bought two more pieces that night because they were on sale at half price! That made him $1 in total profit",
+    "better_option": 1
+  },
+  {
+    "story": "Gina was in her room. It was in the basement. She had one small window which let in the light. It looked out on the neighbor's yard",
+    "generated_text_1": ", but she didn't care because it wasn\u2019t hers.\nShe sat down and stared at herself for a long time before getting up again to go into another part of",
+    "generated_text_2": " and a few trees.\nShe heard something outside, but it wasn't anything she recognized as being human or animal related so that made sense to Gina because there were no",
+    "better_option": 1
+  },
+  {
+    "story": "Theodore was taking a typing class. He worked very hard on learning to type quickly. He was sure he wasn't moving as fast as he should. The day of the test came, and Theodore was nervous.",
+    "generated_text_1": " His teacher told him that if his fingers were steady when she gave her signal for each letter in one word or sentence then it would be an A+.\nWhen Mrs.Brown started reading aloud from their textbook they all sat",
+    "generated_text_2": " His teacher gave him an assignment: write 100 words in one minute.\n\"Wow,\" said Teddy when his paper had been graded by Mrs.Brownson's assistant secretary who happened also be her husband.They were both",
+    "better_option": 1
+  },
+  {
+    "story": "Julie had a pretty pink ball that she loved to bounce outside. One day, it bounced too far and went into the street. It rolled down the hill and over the curb. It then rolled into the creek.",
+    "generated_text_1": " Julie was sad because her favorite toy wasn\u2019t there anymore.\nThe next morning when they woke up in their house at home with no toys for them or each other\u2026they were both very happy! They played together all afternoon until",
+    "generated_text_2": " Julie was sad because her favorite toy wasn\u2019t there anymore.\nThe police officer came by with his truck full of tools for fixing things like this one: A broken fence or an old car tire on your lawn! The policeman said",
+    "better_option": 2
+  },
+  {
+    "story": "Darlene just moved to a new city and has no friends. Darlene was looking for shelves in thrift stores for her new home. A customer and cashier struck up a conversation with Darlene. They seemed friendly and had similar interests.",
+    "generated_text_1": " The two women became fast buddies, talking about their lives together.\nAfter the first day of work at Thrift Towns they were inseparable! After several months working there she asked if he would be interested as an employee when it opened its",
+    "generated_text_2": " The two women got along well, so they decided on meeting again at the store.\nThe next day after work when she arrived back from shopping there were three other customers waiting behind them that wanted help finding what their friend needed too! That\u2019s",
+    "better_option": 2
+  },
+  {
+    "story": "When I first moved into my house, I didn't know my neighbors. While mowing one day, I found a kickball in my yard. I felt this was the perfect opportunity to meet my neighbors. I grabbed the ball and went next door to return it.",
+    "generated_text_1": " As soon as we met each other's names were exchanged.\nI had no idea that our paths would cross again years later when they needed help with their garage sale! We ended up helping them out by donating some of what little money remained from selling items at home for charity!\n",
+    "generated_text_2": " When we got back home from our walk around town that evening (we had just bought some new clothes), there were two men standing on their porch.\nI asked them if they knew each other or where he lived because when you are living alone for so long...you get lonely",
+    "better_option": 1
+  },
+  {
+    "story": "Paul put money in the bank! He wanted to save a lot! He really wanted to take money out too! He decided he should save the money.",
+    "generated_text_1": " But, what if Paul didn\u2019t have enough? What would happen?\nA man had some bills that needed paying and was worried about how much it might cost him",
+    "generated_text_2": " Paul had lots of savings and it was easy for him.\nHe saved his own life, but also helped others!\nThe Bible says that God is our provider (",
+    "better_option": 1
+  },
+  {
+    "story": "Rick liked eating chocolate oatmeal. But his friend suggested that he use higher quality cocoa powder. Rick was tight about money. But he decided to buy more expensive cocoa powder just once.",
+    "generated_text_1": " How much did it cost him?\nA) 2\nB)$\\frac{1}{3}$",
+    "generated_text_2": " He bought 5 kg of the new type and then used it for a month.\nAfter one week, when there were only two weeks left before Christmas holidays began in school,he started using",
+    "better_option": 2
+  },
+  {
+    "story": "Mike liked basketball. He would always play it everyday during and after school. When the tryouts came he was ready. The coach watched him play and dribble.",
+    "generated_text_1": " Mike had a good shot, but his defense wasn't up to par.\nThe next day when practice started everyone knew that they were going against this kid who could shoot from",
+    "generated_text_2": " Mike had a great game, but didn\u2019t make any of his shots.\nThe next day at practice they were working on free throws when Coach noticed that one player wasn't",
+    "better_option": 2
+  },
+  {
+    "story": "Stewart and his sister were fighting over the TV remote. Their parents yelled at them to stop, but the kids persisted. During a tug of war over the remote, it flew out of their hands. The remote smashed into the TV screen, resulting in a big crack.",
+    "generated_text_1": " They both ran for help.\nThe police arrived on scene first because they knew how dangerous this situation was going be if one child got hurt or worse! After assessing all possible scenarios involving injuries from falling objects like broken glass shards etc., officers decided that since there wasn\u2019t any immediate danger",
+    "generated_text_2": " It was broken.\nThe next day Stewart\u2019s mom called him on her cell phone while he played video games with friends online:\n\u201cHey kid! What happened?\u201d\n\u201cI broke my new television,\u201d said 10-year-old Stewie as tears streamed down from both eyes.\u201d\nHis",
+    "better_option": 2
+  },
+  {
+    "story": "Trent's family owned a camping supply store. Trent hated camping though. Every summer his parents made him go on a camping trip. This summer Trent was in charge of keeping the fire going in the wind.",
+    "generated_text_1": " He had to keep it burning all night long.\nHe tried many different things but nothing worked out right until he found this one thing that did work! It took some time and effort, so be patient with your kids",
+    "generated_text_2": " He had to keep it burning until he got back from work.\nThe first thing that happened when they started their journey, there were no trees around them and all along this road you could see mountains everywhere! The next",
+    "better_option": 1
+  },
+  {
+    "story": "Frank thought he was the best at football in the neighborhood. He challenged his friends at the park. Robert ended up outperforming Frank the whole game. Frank, being a good person, took it in stride.",
+    "generated_text_1": " But when Bob\u2019s dad found him crying after practice one day and told how hard life is for poor kids like them who don\u2019t have any money to buy shoes or clothes that fit right.\nBob knew what happened next:",
+    "generated_text_2": " But when you\u2019re not as smart or talented and your friend is better than everyone else\u2026you can\u2019t help but feel like an outsider.\nThis entry posted by admin on November 10th under Uncategorized. You may leave",
+    "better_option": 2
+  },
+  {
+    "story": "Samantha wanted to watch a scary movie, but her mother said no. Her mother left for work, and Samantha decided to watch it anyway. The movie was so scary it gave Samantha nightmares for weeks! She wished she'd never watched it!",
+    "generated_text_1": "",
+    "generated_text_2": " What should you do when your mom says \"no\"?\nA) Tell the truth.\nB ) Lie about what happened in order not be punished\nC.) Ask permission first before doing anything that might upset or disappoint someone else (like watching movies)\nD",
+    "better_option": 2
+  },
+  {
+    "story": "I think yesterday was when I realized I shouldn't be a mathematician. I was at the grocery store, restocking for next week. I had bought around twenty items, and thought I was under my budget. When I went to check out, I was ten dollars over!",
+    "generated_text_1": " It's not like it would have been that much more expensive if they'd just given me an extra dollar or two.\nBut then again...it is what you pay in taxes on your income tax return (which will probably come due tomorrow). So maybe there should really only ever go up",
+    "generated_text_2": " The cashier looked up from her register with an expression of horror on face.\n\"Are you sure?\" she asked me incredulously as if it were impossible that someone could buy so much stuff in one trip!\n\"No,\" said another customer behind us who also happened not have been looking closely enough",
+    "better_option": 2
+  },
+  {
+    "story": "Jill had problems breathing one day. She went to the doctor and she discovered she had anxiety. She began to practice meditation. Her anxiety is now under control.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Tommy was 17 when he dyed his hair pink. He thought it was punk and cool. Some of his friends agreed. His parents thought it was stupid.",
+    "generated_text_1": " They told him to stop.\nHe didn\u2019t listen, so they took away the TV remote control for a week or two until Tommy stopped dyeing all over himself with purple shampoo",
+    "generated_text_2": " They didn\u2019t want him to look like a freak.\nBut Tommy\u2019s not the only one who has had this experience, or even been asked about their choice by others in similar",
+    "better_option": 2
+  },
+  {
+    "story": "I was walking to the store recently. As I was passing an exit, I felt cold, hard steel on my arm. I was shocked that I was being hit by a car! The driver was very apologetic after he saw I was hit.",
+    "generated_text_1": " He said it happened so fast and there wasn\u2019t time for him or his wife (who also had been in her vehicle)to react.\nThe thing is\u2026we are all vulnerable at times when we least expect them!\nWe can be struck down with illness;",
+    "generated_text_2": " He said it wasn\u2019t his fault and apologized for hitting me.\nHe told us about how they were trying their best not only in driving but also with safety measures like installing speed bumps at exits so drivers would slow down before entering them (which is why we have",
+    "better_option": 1
+  },
+  {
+    "story": "Carly was waiting for Sam to call her. He promised to on Friday. It was now late Saturday and she hadn't heard anything. Finally she decided to call him.",
+    "generated_text_1": " She had a feeling he would be busy.\n\"Hey, Carly,\" said the voice at one end of line 1\n\"Yes?\" asked Carley in response as usual when someone",
+    "generated_text_2": " She didn\u2019t want his mother or anyone else telling the story of how he had died.\n\u201cHello?\u201d Carly said, \u201cIs this Mr Smith\u2019s daughter? I\u2019m calling from",
+    "better_option": 1
+  },
+  {
+    "story": "Mike was sitting at his desk. But suddenly, he felt a strange itching sensation on his arm. He felt his legs become itchy too. And then his face.",
+    "generated_text_1": " His whole body started to itch.\nHe looked down and saw that there were tiny red dots all over him! They seemed like little bugs crawling around in the air!\n\u201cWho",
+    "generated_text_2": " His head started to itch.\nHe knew that this wasn\u2019t normal for him and so Mike went upstairs where the doctor had told them they would find relief from their symptoms if only",
+    "better_option": 1
+  },
+  {
+    "story": "My best friend played a video game online. One day, she met a nice boy there. They talked every day and fell in love. They finally met in person and hit it off.",
+    "generated_text_1": " She told me about the guy that was her boyfriend for 2 years.\nI asked if he had any problems with his parents or family members because I knew they were not happy to see him dating",
+    "generated_text_2": " He was so sweet! I didn\u2019t know what to do because he had such good intentions for me.\nHe told his parents that we were dating but they weren't happy about this at all (",
+    "better_option": 1
+  },
+  {
+    "story": "Kayla borrowed a book from her sister. She brought the book with her to a coffee shop to read. Kayla accidentally spilled some of her vanilla latte on the book. She immediately went home to inform her sister.",
+    "generated_text_1": " Her mother was not happy about this and told him that he should have taken care when borrowing books.\nA: The story is very interesting because it shows how important reading can be in our lives, especially for children who are growing up",
+    "generated_text_2": " Her brother was not happy about this and told his wife that he would be taking care for their daughter.\nThe following day, when she got up in morning,she found out what happened.She took off all clothes except underwear.She",
+    "better_option": 1
+  },
+  {
+    "story": "One day I was walking through the woods. From several yards away, I saw a red snake. I froze immediately. I began to slowly walk backwards.",
+    "generated_text_1": " The reptile had no idea what it thought about me.\nI continued my retreat until he disappeared from sight and then turned around with relief that all seemed well in",
+    "generated_text_2": " The closer it got towards me and its head appeared bigger than my hand.\nI thought about running but then realized that if he caught up with us we would be",
+    "better_option": 2
+  },
+  {
+    "story": "Holly was a beautiful black cat that Lee loved very much. Saddly, Holy got very sick and Lee had to put her to sleep. Lee was very sad missing Holly everyday. One day soon after a little black kitten showed up at Lee's back door.",
+    "generated_text_1": " She named him \"Buddy\" because he looked like the big brother of his sister who died when she only 2 months old.\nLee took Buddy in as if it were no problem but then things started getting worse for both cats! The vet said they needed surgery on",
+    "generated_text_2": " She thought it might be the same kitty she lost years ago.\nLee named this new feline \"Holy\" because of his resemblance in coloration with hers but he also has some other distinguishing characteristics which made him stand out from all others around town - especially those who knew",
+    "better_option": 2
+  },
+  {
+    "story": "Gloria was excited about her night out. Every week she looks forward to getting together with friends. They all go out to dinner and then to the bingo hall. She doesn't win often but when she does she celebrates.",
+    "generated_text_1": " Gloria is a very happy woman.\nOne evening, after an hour or so of playing at Bingo Hall 1 in downtown Toronto (a popular destination for seniors), one elderly gentleman approached his friend sitting next him saying \"I've got $",
+    "generated_text_2": " This time, however it wasn\u2019t a good evening for Gloria.\nShe had been playing Bingo at The Palace in Northamptonshire on Friday 26th January while waiting outside of work after finishing an interview as part-time receptionist/secret",
+    "better_option": 1
+  },
+  {
+    "story": "Sarah is a ballet teacher. She teaches a class of small children. She wanted to teach the children to dance for a pageant. It was a lot of work, but all the children were happy to do it.",
+    "generated_text_1": " The parents had been very excited about this and they came out in droves.\nThe day before her performance she got up at 5:00 AM because that\u2019s when rehearsals started early every morning so everyone could get ready",
+    "generated_text_2": " The parents and teachers loved her too.\nShe had been teaching in this school since 2006 when she first came from England with an idea that would change their lives forever: \u201cI want my students here at our little village",
+    "better_option": 1
+  },
+  {
+    "story": "Jasmine did not study for her big math test. She figured she could just wing it. Jasmine soon realized the test was very difficult. She decided to cheat by looking at her neighbor's paper.",
+    "generated_text_1": " When asked why, he said that his teacher told him if you don't know how something is done then look up a video on YouTube.\nThe next day when they were in class and their teachers came around",
+    "generated_text_2": " When asked about this, he said that his teacher had told him never look up answers on tests.\nA) What is jasmine doing wrong?\nB ) How can you tell if someone has cheated in a class",
+    "better_option": 2
+  },
+  {
+    "story": "Jane woke up and decided to exercise. Jane woke up Jill. Jill suggested to Jane that they should run. Both of the girls went outside for a run.",
+    "generated_text_1": " They ran in opposite directions.\nThe girl who was running towards her house, she passed by some trees on both sides which were covered with leaves; while another one had",
+    "generated_text_2": " They ran in circles around their house, then back home again.\nJill was not feeling well so she did some yoga exercises instead\nThe two friends were very happy",
+    "better_option": 2
+  },
+  {
+    "story": "Down in mountains lived a large family. The dad had a red truck. One day it snowed. They needed food so the dad got in the truck.",
+    "generated_text_1": " He drove to town and bought some bread, milk & eggs.\nWhen he came home they ate all that stuff but there was still no more left over for them!",
+    "generated_text_2": " He drove to town and bought some bread, milk & eggs.\nWhen they came home from their trip he told his wife that there was no more money for dinner but",
+    "better_option": 1
+  },
+  {
+    "story": "Dany was a six year old boy who loved to play football. One day Danny was crying because he was lonely. Dany's father was home early from work that day. Dany asked his dad to play football with him.",
+    "generated_text_1": " His Dad agreed and they played for about an hour.\nWhen it got dark, the boys went back inside their house where there were lots of toys in different rooms around them but no one else except momma cat came out at night time so",
+    "generated_text_2": " His Dad said no, but then decided and played the game anyway.\nWhen they were done playing it started raining hard so their dads had an idea of what could happen next if there wasn't any rain for them both! They went inside where",
+    "better_option": 1
+  },
+  {
+    "story": "For the first time in my life I went to the opera. My girlfriends loves the opera and I don't. They were in town performing though so I told her I would go. To my surprise I actually had a good time!",
+    "generated_text_1": " The music was beautiful, there wasn\u2019t any bad seats (I sat right up front)and it didn\u00b4t feel like an expensive night out.\nThe only thing that made me sad about going is how much money we spent on tickets for two",
+    "generated_text_2": " The music was great, it wasn\u2019t too loud (I\u2019m not sure if that\u2019s possible) but everyone around me could hear what they wanted.\nThe dress code is pretty strict at an Italian Opera house: no jeans or sneakers allowed!\n",
+    "better_option": 1
+  },
+  {
+    "story": "Tim just got a new phone. He had dropped it a few time hours within getting it. He decided he needed a case to protect his phone. He went to the local store and purchased a waterproof phone case.",
+    "generated_text_1": " The next day, Tim took out of its box only for him find that there was no instructions on how use this product.\nHe called customer service at 1-800 number provided by manufacturer but they were not able help",
+    "generated_text_2": " The next day, Tim was out with friends at an outdoor concert when one of them fell into some water while swimming in their pool.\nWhen they all arrived back home that evening after having fun for several days together; everyone",
+    "better_option": 1
+  },
+  {
+    "story": "Neil wanted to see ancient temples and ruins. He decided Asia was a great place to start. He flew to Cambodia and went sightseeing. He saw so many old temples in the jungles there.",
+    "generated_text_1": " The next day he took an airplane back home.\nWhen Neil got on his flight, it wasn\u2019t going very fast at all! It didn't even go over 100 miles per hour!\nThe plane landed",
+    "generated_text_2": " They were beautiful, but he didn\u2019t know what they meant.\nHe found out that these places had been built by people who believed their gods lived here on earth with them as humans do today \u2013 not just",
+    "better_option": 2
+  },
+  {
+    "story": "There was an extremely obnoxious boy in Kerry's economics class. He monopolized every class discussion with his mediocre ideas. The professor could never get him to be quiet. One day, he showed up to class with laryngitis.",
+    "generated_text_1": " His classmates were so relieved that they gave the poor guy a break.\nThe next week when Mr.Kerry saw this kid again at lunchtime and asked how things had gone for them both since last time (he hadn't been able hear anything),",
+    "generated_text_2": " His teacher asked if there were any other students who had the same problem.\nThe entire room erupted into laughter as one by-one they confessed that their voices also sounded like a frog croaking when speaking loudly or making noise for long periods of time (",
+    "better_option": 2
+  },
+  {
+    "story": "Lia went to England. She took a bus tour. The tour stopped at Stonehenge. Lia got out of the bus to look.",
+    "generated_text_1": " A man was standing in front.\n\u201cHello,\u201d he said, \u201cI\u2019m David.\u201d\n\u201cI am too.\u201d He smiled and shook her hand\nDavid",
+    "generated_text_2": " But she didn\u2019t see anything.\nShe walked around and looked up in all directions, but there was nothing except trees or grasses growing on top!\n",
+    "better_option": 2
+  },
+  {
+    "story": "Del hurried home from work. He was very worried and anxious. His wife had said she had important news for him. But when he got home, he saw his wife was smiling.",
+    "generated_text_1": " She told Del that they were going to have a baby.\nWhen the doctor came in with some papers about their pregnancy test results, it turned out there wasn\u2019t anything wrong at all! The",
+    "generated_text_2": " She told Del that the doctor\u2019s report came back positive.\nThe next day at 8:00 a.m., Dr.McCoy called to see how things were going with you?",
+    "better_option": 1
+  },
+  {
+    "story": "I was at the park the other day. I walked near the lake and saw some ducks. I decided to throw them some bread. They chased after me in an angry fashion.",
+    "generated_text_1": " The first one landed on my shoulder, then another followed suit.\nThe third duck flew up into a tree where it sat for about 15 minutes before flying back down again with its head",
+    "generated_text_2": " It\u2019s a good thing they didn\u2019t catch up with my camera.\nThis entry is filed under Photography, Travel. You can follow any responses back for comments or tips on this post.\n",
+    "better_option": 1
+  },
+  {
+    "story": "Cindy got out of bed. But she couldn't find her slippers. Instead of making breakfast, spent all day looking for them. She gave up and ordered another pair.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Nan felt guilty because her pets were alone all day while she worked. She considered getting rid of them, but knew she'd miss them too much. She realized the boy next door got home from school at 3:00 every day. She offered him five dollars a day to spend some time with the cats.",
+    "generated_text_1": " He agreed and started coming over after dinner.\nThe first week he spent an hour or so playing in their yard before going inside for supper; then another half-hour on his way back out again when it was dark enough that they could see each other's faces without being seen by anyone else (the neighbors had left town). The",
+    "generated_text_2": " He agreed and started coming over after lunch.\nWhen he was done playing for an hour or so Nan would give his parents permission again before letting their cat out into its cage in back yard where it could roam freely during daylight hours when they weren't around.",
+    "better_option": 2
+  },
+  {
+    "story": "Dave wanted buy a gun. He went to the gun store and asked many questions. He looked at big guns and little guns. He decided he wanted to buy a big shotgun.",
+    "generated_text_1": " The salesman told him that it would be $1000, but Dave said no way! I can\u2019t afford this much money for just one weapon!\nThe next day when they were in",
+    "generated_text_2": " The clerk told him that it would be $1000, but if Dave paid in advance for 6 months of monthly payments then they could give them an interest free loan.\nThe next",
+    "better_option": 1
+  },
+  {
+    "story": "Tom was wrapping Christmas presents. But he lost track of who they were for. So he put wrong name tags on the presents. On Christmas, Tom handed his son a present.",
+    "generated_text_1": " The boy opened it and found out that there is no Santa Claus.\nThe next day at school in class 1A students started to play games with their friends from other classes like \u201c",
+    "generated_text_2": " The boy opened it and saw that there wasn\u2019t any tag.\n\u201cDad,\u201d said Sonny \u201cI don't know what this is.\u201d He took out an envelope from inside which",
+    "better_option": 2
+  },
+  {
+    "story": "Two ships passed in the night. One was British and one was German. They saw each other and both fired their guns. The two ships began taking on water.",
+    "generated_text_1": " Both were sinking fast.\nThe captain of a small boat rowed to them, grabbed an oar from his shipmate who had been killed by gunfire earlier that day (",
+    "generated_text_2": " Both were sinking.\nThe captain of a ship that had been hit by an enemy torpedo, but which still managed to keep going at full speed towards its destination (the island",
+    "better_option": 2
+  },
+  {
+    "story": "Tommy was only 9 years old and always getting in trouble. One day he told his friend Tim that he was going to run away. He went home and packed his clothes. He decided to leave that night.",
+    "generated_text_1": " The next morning, Tommy woke up early with a plan.\nHe got dressed quickly but forgot the money for gas or food! So when they were ready it took them about an hour just driving around looking at houses until finally one",
+    "generated_text_2": " When the sun came up, Tommy had left.\nTim called him on a pay phone at school but couldn\u2019t get through because it wasn't working properly so they tried again later when everyone else were gone from class for lunch break",
+    "better_option": 2
+  },
+  {
+    "story": "Jerome dribbled the ball quickly. Sam tried to grab it from him, but wasn't fast enough. He chased Jerome down the court. Jerome pushed Sam backwards and threw the ball.",
+    "generated_text_1": " It went into a basket.\nSam was angry with himself for not being able catch up on time!",
+    "generated_text_2": " It went into a basket.\nSam was so angry he didn\u2019t even care about his team\u2019s loss anymore!",
+    "better_option": 2
+  },
+  {
+    "story": "Brie and her cat moved in with her boyfriend and his cat. The two cats hated each other. They spent most of their hissing each other. One night, six months later, the cats decided to cuddle.",
+    "generated_text_1": "",
+    "generated_text_2": " Bria was not happy about this.\nShe told them that they were going back outside where it would be safe for both animals if she could have one more day alone at home before moving out again!",
+    "better_option": 2
+  },
+  {
+    "story": "Sue wanted a pet. She told her mom she wanted a dolphin. Her mom told her that wouldn't be possible. So her mom got her a new goldfish the next day.",
+    "generated_text_1": " Sue was very happy with it.\nOne night, while sleeping in bed at home one evening after dinner and before going to sleep for goodnight prayers (which is what they do), there came an",
+    "generated_text_2": " Sue was disappointed, but not for long.\nThe fish grew into an enormous creature and ate all of their food in one night! The family had to move out because they couldn\u2019t afford it anymore",
+    "better_option": 1
+  },
+  {
+    "story": "I went to the post office yesterday. It took a while to get there since it's on the other side of town. Once I got there I mailed my letters and headed home. It's always easier to get home than to get somewhere.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Carl wanted to make dinner to impress the woman he was dating. He studied some recipes and planned the meal. One the big day, his nervousness caused him to switch sugar and salt. His date could barely eat one bite and Carl was crushed.",
+    "generated_text_1": " The next time they met she told her friends that it had been a disaster.\nHow did this happen? It's not like you can't cook! You just need practice!\nPractice makes perfect in many things including cooking but especially when trying new foods or techniques",
+    "generated_text_2": " The next night when she came over for a second time they had another great conversation.\nThis is an example of how our subconscious mind works in many ways that we are not aware or even conscious about it at all times! We have been programmed from birth by",
+    "better_option": 1
+  },
+  {
+    "story": "Robbie and I went to a fancy restaurant for our anniversary. It was very elegant. We both had to dress formally in order to get a table. We enjoyed TEN courses over four hours.",
+    "generated_text_1": " The food, the service...all wonderful.\nI have been here several times now (and will go again) because of its location on 5th Avenue between Madison & Park Ave., which is my",
+    "generated_text_2": " The food is so good, but the service could have been better.\nThe wine list at this place has an amazing selection of wines from all around Europe as well some great selections that are not on most",
+    "better_option": 2
+  },
+  {
+    "story": "Ella was trying to pick a prom dress. She could not decide! So she asked her boyfriend for his opinion. He said she was beautiful in any dress she chose!",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "I was looking on craigslist and saw a free piano. The person needed to get rid of it and I called him. I got his address and showed up at his house. When I got there I saw the nice piano.",
+    "generated_text_1": " He had some stuff in front, but he said that all my money would be gone if i took anything from this place.\nSo we went inside where they were playing music with their friends outside (they didn't have any instruments). We",
+    "generated_text_2": " He said he had been playing with this for 5 years, but now that we were going through some hard times in our lives (he lost both parents) then things just didn't work out as planned.\nHe told me about how",
+    "better_option": 0
+  },
+  {
+    "story": "Jake was trying to fall asleep. He had an important test tomorrow. He rolled around in his bed all night. He tried drinking a big glass of warm milk.",
+    "generated_text_1": " But it didn\u2019t help.\nHe got up and went into the bathroom, where he took off everything except for one thing: His underwear!",
+    "generated_text_2": " It didn\u2019t help.\nHe woke up at 4:00 am and went downstairs for breakfast with the family, but he couldn't sleep anymore so Jake decided that it",
+    "better_option": 0
+  },
+  {
+    "story": "Neil had just arrived in Paris. He could not wait to see all the culture there! He spend his first day seeing art work. He visited three museums in just one day!",
+    "generated_text_1": " The Louvre, Musee d'Orsay and Mus\u00e9e du Quai Branly.\nThe next morning he went on a tour of Notre Dame Cathedral with an English speaking guide who",
+    "generated_text_2": " The Louvre, Mus\u00e9e d\u2019Orsay and Musee de l'Armee.\nHe went back home with a lot of new knowledge about history!\nI have been working on",
+    "better_option": 0
+  },
+  {
+    "story": "Our team had a football game today. We were all pumped to win. We got on the field and practiced before the game. Our team was unified, and worked together.",
+    "generated_text_1": " The coach told us that we would be playing against another school in our district.\nWe ran around for about 15 minutes until it started raining hard outside of my window! I could",
+    "generated_text_2": " After practice we went out for our first official scrimmage.\nWe ran around in circles with no one knowing what they should do or where their teammates would be at any given time! It",
+    "better_option": 0
+  },
+  {
+    "story": "The Epps go to the ocean for vacation every year. This time they would participate in a sand castle contest. Each family member worked on a different part. The littlest Epps filled the moat with ocean water.",
+    "generated_text_1": " They also made an archway out of rocks and shells.\nAfter all their hard work, it was finally ready!",
+    "generated_text_2": " They also made an arch out of seaweed and rocks.\nEppie 1: I want my mom's hair!\nI'm going home! My favorite place is at Grandma\u2019s house, but now that we're moving back",
+    "better_option": 0
+  },
+  {
+    "story": "Chester decides to go to the mall one afternoon. He does not intend on buying anything, but just wants to walk around. However, he sees a very nice shirt on sale. Chester buys the shirt because the price is so good.",
+    "generated_text_1": " When his mother finds out about this purchase she gets angry and tells him that it was too expensive.\nThis story teaches children how important saving money can be for their future needs such as college or even retirement!",
+    "generated_text_2": " The next day at work his boss asks him why did you buy that expensive t-shirt? Why didn\u2019t I tell it was for my wife?\nThe answer: \u201cI don't know what she would think of me wearing such an ugly thing.\u201d",
+    "better_option": 0
+  },
+  {
+    "story": "Last week I tried to make my girlfriend a card. It turned out okay but she knew I made her something. I asked what gave it away. Apparently I was still covered in glitter.",
+    "generated_text_1": " She said, \"You're not going anywhere.\"",
+    "generated_text_2": " She said that the \u201cglitter\u201d on top of all those other things is not really glitzy at alll.\nI\u2019m sure you know this already, and if so then thank goodness",
+    "better_option": 0
+  },
+  {
+    "story": "I went to the park to play frisbee with my dog. I tossed the frisbee to my dog and he would catch it in his mouth. I accidentally threw the frisbee too far. The frisbee landed into the pond.",
+    "generated_text_1": " It was a very big mistake.\nMy mom said that we should not throw things from our house because they might get lost or hurt someone else\u2019s property, but she did let me go outside anyway!\nWhat is your favorite thing about playing Frisco?\nFrisc",
+    "generated_text_2": " My friend came over, she was upset because her cat had drowned.\nMy mom told me that if you throw something really hard then there is a chance for your thing not being caught by someone else\u2019s hand or even getting lost somewhere on earth!",
+    "better_option": 0
+  },
+  {
+    "story": "Jen wanted all of her family to be together for Christmas. She planned a fun party and invited everyone. All of her friends showed up, but not her family. Jen was very sad.",
+    "generated_text_1": " Her mom said that she would have liked the company.\nA: The girl is upset because no one from home came on this special day\nB : No problem! We can still celebrate with our own",
+    "generated_text_2": " What happened?\nA: The people who were there did show their love by being with the ones they cared about.\nB : They didn't have enough time or money\nC.They had other plans",
+    "better_option": 0
+  },
+  {
+    "story": "Last week my girlfriend and I bought three lottery tickets. It's not something we normally do. We were desperate for money. Even a long shot was worth it.",
+    "generated_text_1": " But the numbers came up, so here are our stories.\nI won $1 million on Wednesday night in an instant win scratch ticket at 7-Eleven. The",
+    "generated_text_2": " The odds are against us, but the excitement of winning is what keeps me going.\nThe first ticket had no numbers on its face; just an image that said \"Win",
+    "better_option": 0
+  },
+  {
+    "story": "For Rachel's birthday, her husband took her out to the river. They set up a blanket on the beach and enjoyed a picnic. After they ate, they went for a swim. When they got bored of that, they went and bought some ice cream.",
+    "generated_text_1": " Then it started raining.\nRachel was so upset because she didn't have an umbrella with which you can protect yourself from rain when swimming in water or going outside during rainy weather! She wanted one very badly but couldn\u2019t afford them at this time!\nThe next day after",
+    "generated_text_2": " Then it started raining so she decided not go back home.\nThe next day when he woke from his sleep at 7:00 am,he found himself in bed with no memory what happened last night. He was confused but then remembered something about being naked under water",
+    "better_option": 0
+  },
+  {
+    "story": "Pam thought her front yard looked boring. So she decided to buy several plants. And she placed them in her front yard. She was proud of her work.",
+    "generated_text_1": " But the next day, Pam noticed that all these flowers were dying.\nShe went back and forth from one flower bed into another looking for a solution but nothing worked out well",
+    "generated_text_2": " But then, one day when Pam went out for a walk and saw the flowers blooming all over.\nShe realized that it wasn\u2019t just any ordinary flower garden but an",
+    "better_option": 0
+  },
+  {
+    "story": "Matt's children's room was now too small for all three children. Matt couldn't afford to move to another house. Matt talked with his wife about their options. They both agreed it best to switch the children into the master suite.",
+    "generated_text_1": " The kids would be able use a separate bedroom, and they could have more space in which each child can do homework.\nThe first step is always finding out what your family wants from this project: What are you trying accomplish? How much money",
+    "generated_text_2": " The kids were happy and excited, but they had a lot of work ahead.\nThe first step in this project is removing carpet from each bedroom floorboards so that we can install new hardwood floors throughout our home! We are using 3/",
+    "better_option": 0
+  },
+  {
+    "story": "One day, the president of the United States visited my hometown. I waited in line for hours to get to see him. I stood in front of the podium while he gave a stirring speech. As he left, he shook my hand!",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Ava had hairy legs. She asked her mom if she could shave them. Ava's mom said she was probably old enough. Ava was so excited!",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "I've always loved penguins. I wanted to take a trip to the zoo to see the penguins. I saved money for a few weeks to get tickets and gas money together. I went to the zoo with my brother.",
+    "generated_text_1": " We were excited about seeing all of our favorite animals.\nWe got there early so we could walk around before everyone else came in, but it was still crowded when people started coming through doors after us! It took forever just walking from one",
+    "generated_text_2": " We got there early so we could walk around before it was crowded.\nWe walked through all of their exhibits, but our favorite part were those that had animals in them like zebras or giraffes! The only thing they didn't",
+    "better_option": 0
+  },
+  {
+    "story": "Bob had recently just purchased his dream car. The only thing he didn't like about it was the color. He took it to the paint shop to get it repainted. He waited a week and then picked it up from the shop.",
+    "generated_text_1": " When Bob got home, there were some strange things happening in front of him.\nThe first oddity that caught my eye is this: \"I'm not sure what happened here,\" said one man as they looked at each other with puzzled expressions on",
+    "generated_text_2": " When Bob got home, there were two cars in front of him.\nOne looked brand new with shiny chrome bumpers on all four corners; one that wasn\u2019t even painted yet sat next door looking very old fashioned as if someone left their keys inside",
+    "better_option": 0
+  },
+  {
+    "story": "Tom wanted to go to a New York Giants game. However, the tickets were too expensive. Finally, he found tickets that were in his price range. He ended up sitting in the upper deck.",
+    "generated_text_1": " Tom was very happy with this decision.\nA: What is your favorite color?\nB1 : I like blue and green best!\nC2.I am going on vacation next month!",
+    "generated_text_2": " The team won and Tom was happy.\nThe next day at work someone asked him about going on vacation with them this summer because they had been talking for months but no one could agree where it would be or",
+    "better_option": 0
+  },
+  {
+    "story": "Gina had severe indigestion. She knew this was all her fault. She had eaten way more than she could hold. Now it was coming back up.",
+    "generated_text_1": " Gina felt like a failure, and that made the pain worse.\nShe thought about calling for help but decided against doing so because there were no other people around to hear what",
+    "generated_text_2": " Gina felt sick and nauseous, but that wasn\u2019t the worst of what happened next.\nShe started to throw-up in a very public place: on an airplane! It",
+    "better_option": 0
+  },
+  {
+    "story": "Terry's daughter was in extreme pain in her mouth. After an evaluation, Terry realized that her daughter was teething. Once Terry realized she was teething, Terry administered medication. After the medication, Terry placed teething gel on the baby's teeth.",
+    "generated_text_1": " The next day when they went to see their pediatrician for a check-up and dental cleaning appointment.\nThe dentist noticed some redness around one of his patient\u2019s upper front incisors (teeth). He suspected it might be due from biting down too hard while eating",
+    "generated_text_2": " The next day when he saw his child with swollen lips and gums from using a toothpaste made for adults.\nThe pediatrician told him to stop giving it because of possible side effects such as bleeding or infection at gum tissue sites where babies are prone due their immature immune",
+    "better_option": 0
+  },
+  {
+    "story": "A car was driving across this abandoned road. A deer ended up moving out of the vines. Since the driver was scared by the deer, he didn't hesitate to stop. The deer died from injury.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Lorraine was a softball player. She was the best on her team. One day, during a game, she twisted her ankle badly. She wasn't able to play anymore.",
+    "generated_text_1": " Her coach told Lorraine that if he saw another athlete who could do what they did with their injured players and still win games then his job would be safe.\nThe next week at",
+    "generated_text_2": " Her teammates were sad because they didn\u2019t want Lorraine not be playing.\nOne of them said: \"We can do it without you.\" The other players agreed and started practicing by",
+    "better_option": 0
+  },
+  {
+    "story": "Sue was nervous about taking the driver's test. But she had been practicing a lot so she felt confident in her skills. She arrived at the DMV and the driving instructor greeted her. The test was going well, until Sue's car started to overheat.",
+    "generated_text_1": " Her hands were shaking as they tried not let go of their steering wheel.\n\"Take your foot off that pedal,\" said Instructor Bobby Smith \"and you'll be fine.\"\n\"I'm sorry I can't do it like this.\" Said Susan\n\"No problem!\" replied Mr.B",
+    "generated_text_2": " It became difficult for him as he tried his best but it wasn't enough.\nThe examiner told them that they were not allowed on any more roads because of their poor performance during this part or even before! They both cried with disappointment after failing such an important exam!\nThis is",
+    "better_option": 0
+  },
+  {
+    "story": "Karen's friend called her to see if she wanted to hang out. Karen agreed and they met at a coffee shop. They talked for a couple hours before going to a spa. Afterwards, they had dinner together and watched a movie.",
+    "generated_text_1": " The next day was their last night in town.\nThe following morning the two girls woke up early so that one of them could take care or his dog while he went into work (he works as an accountant). He left first thing with no",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "One day I wanted to cook a nice dinner for my family. I decided to cook spaghetti. I boiled the noodles and put the sauce in a pot on the stove. I turned the stove on too high.",
+    "generated_text_1": " The pasta was boiling very fast, but it wasn\u2019t cooked yet.\nI took out some of them with chopsticks because they were still hard when you bite into one piece (this is called al dente). Then",
+    "generated_text_2": " The pasta was boiling fast, so it started bubbling over.\nI quickly took out of sight all that happened with this disaster!",
+    "better_option": 0
+  },
+  {
+    "story": "Derrek wanted to buy a piano. He started working odd jobs to earn money. Derrek kept the extra money he earned in a special bank account. He worked for months to earn enough money.",
+    "generated_text_1": " Finally, one day when it was time again and there were no more hours of work left on his schedule.\nHe went into town with all that cash from saving up over so many years! When they got",
+    "generated_text_2": " One day, when his work was done and all of it had been saved up into one big pile.\nHe went home that night with $1000 dollars!",
+    "better_option": 0
+  },
+  {
+    "story": "When I was young I hated mowing the lawn. As I got older I never really liked it any more. Now that I have my own kids I make them mow the lawn. They hate it too.",
+    "generated_text_1": " It\u2019s a lot of work, and they don\u2019t like to do things for me.\nI\u2019ve been thinking about this lately because we\u2019re going through some tough times right now with our house being sold in foreclosure (we",
+    "generated_text_2": " So what do we use to get rid of all those dead grass clippings? We put a bunch in our compost pile.\nWe are using this method because there is no other way for us right now, and also",
+    "better_option": 0
+  },
+  {
+    "story": "Bob has heard that yoga will help him reduce his stress. He decides to attend a beginners yoga class. However, he finds that the poses are difficult and uncomfortable. One pose even makes his back ache.",
+    "generated_text_1": " Bob is frustrated with himself for not being able do what everyone else can.\nThis story illustrates how we often make assumptions about others without knowing them well enough or taking time out of our busy schedules (or lack thereof",
+    "generated_text_2": " Bob is not sure if this type of exercise would be right for someone who wants relief from pain.\nThe American College Health Association (ACHA) conducted an online survey in 2012 on college students\u2019 use",
+    "better_option": 0
+  },
+  {
+    "story": "Troy went over to play at Sam's house. The boys played with blocks and trucks and teddy bears. They also colored and played with finger paints. Sam's dad made them a snack of apples and caramel sauce.",
+    "generated_text_1": " It was so yummy!",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Jim really wanted a new smart watch. He started saving his money because the watch was very expensive. One day he walked into work and there was a present on his desk. His boss had bought him a smart watch because of his excellent work.",
+    "generated_text_1": " Jim thanked her for buying it but said that this is not what they were expecting.\nThe next morning, when everyone got to their desks in time at 8:00 am, all employees saw an email from HR saying \u201cWe have received your application",
+    "generated_text_2": " Jim took it out to show everyone what kind thing they got for their hardwork.\nThe next week, another employee came in with an even better gift than that one: A brand-new iPad mini!",
+    "better_option": 0
+  },
+  {
+    "story": "Eli Young loved Elvis Presley. He would sing and dance like him in the mirror. When he turned eighteen he moved to Las Vegas. He decided to work the strip as an impersonator.",
+    "generated_text_1": " His first job was at a restaurant called The Blue Room.\nThe owner of this place, Mr Johnson liked his music so much that when Eli sang for them they offered their stage time free! They gave it",
+    "generated_text_2": " His first job was at a casino called The Stardust.\nHe started out by singing for tips, but soon realized that it wasn\u2019t enough money so after some time Eli went back home with his parents who",
+    "better_option": 0
+  },
+  {
+    "story": "Dan realizes that he has gained weight over the last few Year's. He decides to begin exercising and eating better to become less fat. It is a grueling process, and at times Dan wants to give up. However, he remains dedicated until the extra weight is gone.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Paula wrote a lot of spoken word poetry. Her friends were supportive even though it was bad. They invited her to a party. Paula started delivering some spoken word.",
+    "generated_text_1": " She had no idea what she would say at the event, but when they arrived there and saw that everyone else in attendance did not know how or why anyone could be speaking so",
+    "generated_text_2": " She had no idea what she would say or how long the poem should be.\nThe night before, they asked if there is any way for them not have their friend at that",
+    "better_option": 0
+  },
+  {
+    "story": "Cara loved Tamales. She and her grandmother made tamales every year at Christmas. Unfortunately, her grandmother passed away one day. When Christmas came, Cara made the tamales anyway.",
+    "generated_text_1": " But she didn\u2019t have any corn husks to wrap them in.\n\u201cTaco Bell has a new recipe for taco salad,\u201d said Taco Salad Guy as he walked into his restaurant with two tacos on each hand",
+    "generated_text_2": " But she didn\u2019t have any of those special ingredients that Grandma used to make them with.\nShe had a few things in mind for making good-tasting tamale filling but none were quite right until\u2026she found",
+    "better_option": 0
+  },
+  {
+    "story": "Fred & Fran were a happy couple. It was valentine's day, and Fran was excited. Fred had already planned a special night out. After work, the couple got dressed for their date.",
+    "generated_text_1": " They went to dinner at an upscale restaurant where they enjoyed each other\u2019s company.\nAfterwards,they walked home hand inhand. As soon as he opened his car door she jumped into it with excitement!",
+    "generated_text_2": " They went to dinner at one of his favorite restaurants.\nAfterwards they walked around downtown looking into stores that he wanted her too see but she wasn't interested in buying anything from them because it didn\u2019t have",
+    "better_option": 0
+  },
+  {
+    "story": "Sarah didn't like the food her school served besides the burritos. So she only bought lunch when they were serving them. But one day, it was announced that they would no longer serve them. Sarah recorded herself eating her last school burrito.",
+    "generated_text_1": " She then uploaded a video of this to YouTube and posted on Facebook.\nThe reaction from other students has been mixed at best; some have said \"I'm glad you're not going back there anymore,\" while others say things such as: \u201cYou\u2019re lucky",
+    "generated_text_2": " She then posted a video on YouTube and got over 1000 views in less than two days.\nWhat is your favorite thing to eat?\nI love pizza! I'm not sure if you've ever had Pizza Hut's \"Hot 'n Ready\" pizzas",
+    "better_option": 0
+  },
+  {
+    "story": "Last night I had the best pizza. I went to bertucci's and had a pepperoni pizza. The sauce was delectable and the meat was divine. I ate the entire thing.",
+    "generated_text_1": " It is so good, that even though it has 1200 calories in one slice (and there are four slices) you can't help but feel satisfied.\nI am not sure what happened with my",
+    "generated_text_2": " It is so good that it makes me want more.\nI have been thinking about this for awhile now, but today has finally come when i can actually share my thoughts with you all! Today marks one",
+    "better_option": 0
+  },
+  {
+    "story": "Gray wanted to be a weightlifter. He practiced at the gym after school. He lifted heavier and heavier weights. Soon he was confident in his abilities.",
+    "generated_text_1": " Gray had been training for years, but now it seemed that all of those hours were paying off.\nHe began lifting more than just heavyweights; instead they became lighter",
+    "generated_text_2": " Then, one day Gray had an accident while lifting.\nHe fell on top of another boy who weighed 50 pounds more than him! The other kid broke both arms",
+    "better_option": 0
+  },
+  {
+    "story": "Rico was working really hard on his essay for English. After working on it all night, he decided to take a short nap. He slept in and was late for for school. When he got to school he noticed that his essay was gone.",
+    "generated_text_1": " Rico went into the office of Mr.McGillivray who is one o fthe teachers at St.James Academy.\nMr.Gillickry said \"I know what happened.\"He told him about how when you are asleep your mind goes blank",
+    "generated_text_2": " It had been stolen!",
+    "better_option": 0
+  },
+  {
+    "story": "David was an all around great football player. He was nervous about his next game. A scout would be there. This game would determine his future.",
+    "generated_text_1": " David had to play well or he wouldn\u2019t get a scholarship.\nHe knew that if the coach liked him, then they\u2019d probably give them one of their",
+    "generated_text_2": " David had a lot of pressure on him.\nHe knew he needed to do well, but it wasn\u2019t easy for the young man from South Carolina who grew",
+    "better_option": 0
+  },
+  {
+    "story": "Every year we attend a poolside barbecue at my aunt's house. One year when my sister was very young she fell in the pool. As soon as my dad realized she was missing he ran for the pool. He dove in and brought my sister to the surface.",
+    "generated_text_1": " My mom, who had been sitting on her deck watching us swim said \"Oh no! She is not breathing!\" I remember thinking that this must be it because there were only two people left alive.\nMy parents pulled me out of bed early one morning so they could go pick",
+    "generated_text_2": " She had been under water about 20 minutes.\nMy mom told me that I should have never gone swimming because it is dangerous, but every time someone asks if they can go swim with us there are always people who say \"no\" so why not?\nI think this story",
+    "better_option": 0
+  },
+  {
+    "story": "Mary wanted to dress up as an angel. So she got the wings and the pink outfit. And she even wrote what she was trying to be so no one would wonder. But some of her friends as school started laughing.",
+    "generated_text_1": " They said that Mary looked like a girl who had been crying for days.\nShe told them it wasn\u2019t true, but they still laughed at how sad looking their friend seemed in front on everyone else\u2019s eyes!",
+    "generated_text_2": " They said Mary looked like a girl who had been hit by lightning.\nSo, when it came time for lunch at recess in class that day they all laughed again because there were two angels sitting together eating their sandwiches with forks!",
+    "better_option": 0
+  },
+  {
+    "story": "Larry bought a new motorcycle. He was excited to look cool. The first time he tried riding it he dropped it. He hurt his leg and had to go to the hospital.",
+    "generated_text_1": " When Larry went back home, there were two motorcycles in front of him.\nHe said \u201cI\u2019m going for my second ride today.\u201d But when they got close enough that one could see",
+    "generated_text_2": " When Larry got out of there, they told him that if you drop your bike 3 times in one year then its not worth buying.\nThe next day when Lary rode again on",
+    "better_option": 0
+  },
+  {
+    "story": "Petey held the high score in the pizza parlor's arcade cabinet. It was a campaign fighting game from the 80s. One day Petey went in and the machine was gone. The staff informed him that it had broken down.",
+    "generated_text_1": " He decided to go home, but on his way he saw an old man with no legs sitting by himself at one of those tables outside.\nHe asked if they needed any help or anything like this happened before? They said yes! And then explained how",
+    "generated_text_2": " He asked if he could play on another one, but they told them no.\nThe next morning at work there were two new machines installed: an Atari STe with Super Mario Bros., as well some other games like Asteroids or Space Invaders (",
+    "better_option": 0
+  },
+  {
+    "story": "It was Jane's 2nd date with Jack. As she waited for him to arrive her mother asked when she would return. Jane avoided answering her mother's questions. She was relieved to finally see Jack pull into the driveway.",
+    "generated_text_1": " He got out of his car and walked towards them.\n\"Hi, I'm your daughter.\" said a very nervous looking girl as they shook hands\nJane: \"I know who you are\"\nJack : (smiling) You do",
+    "generated_text_2": " He greeted his parents and then went inside.\nJane had a great time at work that day, but as soon after it ended there were lots of people coming in asking about their jobs or complaining they didn't have any job offers yet!",
+    "better_option": 0
+  },
+  {
+    "story": "Shyanne had a spelling test. She wanted to pass it. She studied hard. She made a 100.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Maggie had her first piano recital tonight. She was very nervous. When she got on stage she was shaking. Thankfully she ended up playing perfectly.",
+    "generated_text_1": " I think it's a good thing that we didn't have to watch the whole performance, because Maggie would've been in tears.\nI'm so proud of my little",
+    "generated_text_2": " I think it's a good thing that Maggie is getting better at this because we have to do more and practice for the next one.\nI'm so proud of my",
+    "better_option": 0
+  },
+  {
+    "story": "Jake was swimming in his backyard. All of a sudden his pool burst open. There was a hole on the side of his pool. All the water leaked out of the pool.",
+    "generated_text_1": " He had to get it fixed.\nHe called an expert and they came over right away, but he still didn\u2019t know what happened or why there were so many leaks all around him!",
+    "generated_text_2": " Jake ran to get help but he didn\u2019t know what else could be done.\nThe next day, after talking with an insurance company and getting some estimates for repairs it turned into $5",
+    "better_option": 0
+  },
+  {
+    "story": "Ron liked to drink a lot of beer. His dad and his mom were both alcoholics. Ron decided it was best if he didn't drink anymore. He finally quit after 6 months.",
+    "generated_text_1": " It took him about that long before the withdrawal symptoms started.\nThe first symptom is usually nausea, followed by vomiting or diarrhea (sometimes with blood). The most common side effect in people who have never had",
+    "generated_text_2": " After quitting, the first thing that happened is when someone asked him \"How do you feel?\" The answer would be: I don\u2019t know.\nThis story shows how important self-awareness can really help",
+    "better_option": 0
+  },
+  {
+    "story": "Don's friend pulled Don's pants down in front of his graduating class. Don was angry and embarrassed at being exposed in this way. Don decided that this friend would no longer be his friend. Don's shame and embarrassment grew.",
+    "generated_text_1": " He felt he had to hide the fact from everyone, even though it made him feel worse.\nHe went home for a while but came back out again after two days because there were still people who knew about what happened with their eyes on",
+    "generated_text_2": " He felt like he had been humiliated by a person who should have known better.\nWhat is the difference between humiliation, shaming someone or making them feel bad about themselves?\nHumiliation: When you are made to look foolish for something",
+    "better_option": 2
+  },
+  {
+    "story": "I don't believe in luck. But my girlfriend's dad broke a mirror yesterday. Not even five second later he slammed his hand in the car door. Then on his way to the hospital he hits a deer.",
+    "generated_text_1": " He was fine, but it took him three days of bed rest and 10 stitches.\nHe said that if I had been there with them they would have made out like bandits!",
+    "generated_text_2": " The Deer was dead when they got there.\nSo I guess it is lucky for me that she has an old man who can drive and hit things with her hands instead of cars or other people, because if not we would",
+    "better_option": 1
+  },
+  {
+    "story": "Sally bought herself grapes. Within a day they were gone. She didn't eat them. She asked her roommates but they all denied eating them.",
+    "generated_text_1": " Sally went to the grocery store and purchased some more, only for it not be long before she was done with those as well.\nShe then decided that maybe someone",
+    "generated_text_2": " Sally was very upset and she went to the grocery store.\nShe found some grape juice in one of those little bottles that you can drink out with your fingers,",
+    "better_option": 1
+  },
+  {
+    "story": "At school, Joanie heard some girls talking about church. They asked Joan if she was a Christian. When Joanie shook her head, the girls shunned her. Joanie told her mom about it.",
+    "generated_text_1": " Her mother said that they were not Christians and should be ashamed of themselves.\nJoan\u2019s father took his daughter to Sunday School at St Luke's Church in New York City where he grew up as an altar boy during",
+    "generated_text_2": " Her mother said that Christians don\u2019t talk like those people.\nJoan\u2019s family didn't go to any churches because they were too poor and couldn\u00b4t afford them! But one day when their house caught fire in ",
+    "better_option": 2
+  },
+  {
+    "story": "After Igor woke up he began to get ready for work. He turned on the shower and waited for it to get hot. The water remained cold. He debated between taking a cold shower and not showering.",
+    "generated_text_1": " Finally, after about 10 minutes of waiting in silence with his thoughts swirling around him like waves crashing against rocks at low tide; finally decided that if there was no other way then take one.\nHe stepped into warm",
+    "generated_text_2": " In his mind, if you don\u2019t take showers then your body will be more prone of catching diseases.\nIgor took off all clothes except underwear that was left in front at night before going out with him wife last",
+    "better_option": 1
+  },
+  {
+    "story": "Shay was hiking in the woods. Then she realized she was lost! She tried not to panic. She retraced her steps until she found her way back to camp.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Keith lived in an area that had occasional earthquakes. But he thought keeping an first aid kit was unnecessary. The next day, he cut his hand while cutting food. And he had to drive himself to a hospital.",
+    "generated_text_1": " He didn't have the money for it.\nHe went back home and looked at all of Keith's belongings - including this book about earthquake safety! It told him how important having emergency supplies is when you live near active fault",
+    "generated_text_2": " He got there and found out the doctor said it would be better if they put him on blood thinners.\nHe asked for them but she told Keith not yet because of all those other things going wrong with this patient\u2019s",
+    "better_option": 2
+  },
+  {
+    "story": "Maggie was scared and excited to go on the space mountain ride. Her and her mother waited in line for what seemed like two hours. When the line was shorter the two got to the front. They stepped in the cars and put on their seatbelts.",
+    "generated_text_1": " Maggie looked at all of those people who were going up there with them, she wondered how they could be so brave.\nThe car started moving slowly then it stopped suddenly! The doors opened but no one came out!\n\u201cMommy!\u201d said Maggi as soon a door popped",
+    "generated_text_2": " Maggie looked out of one window as they went up into a small elevator that took them higher than she could see.\nWhen it stopped, there were many people waiting at another door with signs saying \u201cSpace Mountain\u201d. The car started moving again but this time down instead going back upwards",
+    "better_option": 1
+  },
+  {
+    "story": "Sarah had a fear of being around others. She decided to force herself to go to a party. At the party, she became dizzy and nervous. Sarah decided this was enough, and went to see a therapist.",
+    "generated_text_1": " The therapy helped her realize that it wasn\u2019t okay for people in general not be able or willing do things they wanted.\nThis is an example from our client\u2019s case file: \u201cI\u2019m afraid I\u2019ll make someone else",
+    "generated_text_2": " The first thing that happened in therapy is they discussed her fears about going out with people.\nThey also talked through some ways for dealing better at parties so it wouldn\u2019t be as scary next time (e.g., wearing comfortable",
+    "better_option": 2
+  },
+  {
+    "story": "Kimmy loved owls. She visited a national park with her brother to try to spot them. They arrived at dusk and sat in their hiding spot. Soon they saw an amazing sight.",
+    "generated_text_1": " A flock of 50-100 birds flew overhead, swooping down on the ground below.\nThe next day Kim was excitedly telling everyone about what she had seen that morning when suddenly it happened",
+    "generated_text_2": " A group of 5 or more birds flew overhead, heading toward the river.\nThe brothers were excited as it was rare for so many animals together! The next day Kimy went back again but",
+    "better_option": 1
+  },
+  {
+    "story": "Ed was nervous about starting high school. He tried to reassure himself. He showed up the first day smiling and friendly. He made lots of friends quickly.",
+    "generated_text_1": " But he didn\u2019t know how long it would take for him not only make new friendships, but also learn what kind.\nHe had a lot on his mind as",
+    "generated_text_2": " His teachers were impressed with his work ethic.\nHe had a great time at lunch, but he didn\u2019t want anyone else\u2019s attention on him so much that they",
+    "better_option": 2
+  },
+  {
+    "story": "Kim and Rob wanted a pet. They decided to visit the local Humane Society. They saw a lot of cute dogs. Finally, Kim found a small gray dog.",
+    "generated_text_1": " She was very excited about her new friend.\nThe next day they went back for their first meeting with Mr.Brown who is in charge at this shelter.They were told that he",
+    "generated_text_2": " She picked it up.\nThe little girl was so excited that she ran around with her arms outstretched as if trying on clothes for Christmas! The man who took care off",
+    "better_option": 1
+  },
+  {
+    "story": "Stacie went down to the river bank to feed the ducks. She opened her package of bread. The ducks eagerly swam towards her. Stacie broke off small pieces of bread to give to the ducks.",
+    "generated_text_1": " They ate and drank from their water bowl.\nAs she was feeding them, a man came up behind him with his gun pointed at both sides in case they tried anything funny!\nHe said \"You're not supposed be",
+    "generated_text_2": " They were so happy and they ate all their food.\nWhen she was finished, a man came up behind them with his camera in hand! He took pictures as he watched these beautiful birds eat from each other\u2019s mouths",
+    "better_option": 2
+  },
+  {
+    "story": "Olivia went out with Harry on a date. Harry thought the date was going well. Olivia thinks he is a complete jerk. Harry raves about their chemistry.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Linda passed by a bakery she never saw before. And she decided to go inside. She loved muffins. So she ordered a chocolate one and a banana one.",
+    "generated_text_1": " The lady at the counter said, \"We don't have bananas in our store.\" Linda replied: I'll take two of those instead.\"\nThe woman was surprised because it's",
+    "generated_text_2": " The lady behind the counter told her that they were out of bananas, but there was still some left in their freezer.\nThe woman said: \u201cI\u2019ll give you two for",
+    "better_option": 1
+  },
+  {
+    "story": "Vianna went to church on a Saturday. She sat in the pew and listened to the sermon. The sermon was very interesting and she had questions. She decided to ask the speaker about some questions she had.",
+    "generated_text_1": " He told her that he would be glad if Vienna could come back next week.\nThe following Monday, Vienna walked into school with an envelope from Mr.Wilson's office for each of his classes.She opened it",
+    "generated_text_2": " When Vienna asked her question, it made sense for everyone else who attended that day.\nThe pastor said he would pray over his answer because there were many things going through Vienna\u2019s mind at this point of time as",
+    "better_option": 2
+  },
+  {
+    "story": "I moved into a new apartment last week. I had a lot of stuff to move. It took me over 8 hours to get all of the stuff into my apartment. Then I had to get everything organized.",
+    "generated_text_1": " Now that it\u2019s done, here are some tips on how you can organize your home.\n1) Get rid off old things\nIf there is anything in this house or any other place around us which we don\u2019t use",
+    "generated_text_2": " The first thing that came out was this:\nThis is what it looked like when we got here.\nIt's not bad, but there are some things missing and cluttered up in other places too!\nSo now you know",
+    "better_option": 2
+  },
+  {
+    "story": "Ryan used to work for mall security. He often worked the night shift. One day, he saw a raccoon in the mall. He stared at it for hours until it left.",
+    "generated_text_1": " Ryan was so happy that his life changed.\nHe decided not only would this be an amazing story but also one of hope and change because people are afraid sometimes when they see something strange or unusual",
+    "generated_text_2": " Ryan was scared and decided that if something happened again while working late shifts then his boss would know what had been going on.\nOne morning when they were about 10 minutes away from their destination",
+    "better_option": 2
+  },
+  {
+    "story": "Eve wrote short stories and published them online. She didn't make any money but enjoyed her hobby. One day, she saw an advertisement for freelance writing. She submitted one of her old published stories.",
+    "generated_text_1": " The editor liked it so much that he offered to pay Eve $1000 per month.\nThe next week the story was rejected because a different writer had already been paid more than enough by this time (the first",
+    "generated_text_2": " The editor liked it so much that he offered to pay Eve $5000 a month if the story was good enough.\nThe next morning when I woke up my mother asked me what time is? And i said",
+    "better_option": 1
+  },
+  {
+    "story": "Joe loved to eat dirt. He would make mud pies every chance he got. He was eating a pie when he felt something very hard in his mouth. Joe had bitten down on a rock and knocked out his tooth.",
+    "generated_text_1": "",
+    "generated_text_2": " The dentist told him that the only way for it not be pulled from its socket is if you have an emergency appointment.\nThe next day, while waiting at home with Mommy or Daddy (or both), little Joey bit off",
+    "better_option": 2
+  },
+  {
+    "story": "Last week I lost my phone. I looked everywhere for it. After a few hours I had a good idea. I figured I would call it.",
+    "generated_text_1": " The first time the number rang, there was no answer.\nI tried again and this is what happened:\nThe person who answered said that they did not know",
+    "generated_text_2": " It was still in the house, but not where you might expect.\nI called and got no answer so after about 15 minutes of searching around (and",
+    "better_option": 2
+  },
+  {
+    "story": "Bon had been writing his pen pal Luc in France for months. Then Luke said his family would be visiting America! Bon was so excited that he would get to meet Luc in person. His parents agreed that Luc and his family could visit their home.",
+    "generated_text_1": " They were going on a cruise, but they wanted the kids (Luke & Bonnie) there with them.\nThe trip took place over two weeks at sea \u2013 from New York City through Bermuda then across Canada into Alaska before returning back down again via Hawaii!\nIt",
+    "generated_text_2": " They were thrilled!\nWhen the time came, they packed up everything necessary: clothes (including shoes), food supplies including a large bag of potato chips from McDonalds!), books on tape with cassette tapes attached.\nThey arrived at New York City\u2019s Kennedy Airport just",
+    "better_option": 2
+  },
+  {
+    "story": "The kids went to the graveyard. The came upon a grave with chains. Some of the chains had been broken. They became scared and ran.",
+    "generated_text_1": " When they got home, their mom said that she would take them back there again.\nThey did it! And then when Mom was gone for awhile...",
+    "generated_text_2": "",
+    "better_option": 1
+  },
+  {
+    "story": "Once we got a new Xbox, we knew we needed to get Battlefront. My brother and I loved to play the game together. Although the hard level was very hard and we couldn't get past it. But we would keep playing and trying to get past the level.",
+    "generated_text_1": " We were both really excited for this video because my dad had been telling me about how great Star Wars: The Old Republic is.\nThe first thing you see when starting up your character in SWTOR are these two options; Jedi or Sith? You can choose either one of them but",
+    "generated_text_2": " We finally did! And now that's all there is left of our collection.\nI think this video shows how much fun you can have with your friends when they are on xbox live!\nThis entry has been updated since my last post about The Sims 3: Pets for PC (",
+    "better_option": 2
+  },
+  {
+    "story": "Jane broke Elwood's binoculars. Jane was apologetic. Jane knew the binoculars were too expensive for her to replace. Elwood forgave her.",
+    "generated_text_1": "",
+    "generated_text_2": "",
+    "better_option": 0
+  },
+  {
+    "story": "Manny wanted to get better at making Italian food. He learned how to make noodles from scratch. He learned how to make different sauces. He put on a big Italian dinner for his family.",
+    "generated_text_1": " They all loved it.\nThen he got sick and couldn\u2019t eat anything but pasta, meatballs with sauce (which was good), or breadsticks dipped in marinara. His doctor said that the only",
+    "generated_text_2": " Then he made it again the next day.\nHe also started learning about nutrition and eating healthy foods like fruits, vegetables, whole grains. And then there was dessert! Manny\u2019s mom taught him that you",
+    "better_option": 2
+  },
+  {
+    "story": "Jon's fridge was broken. He called a service company to repair it. They told him they could come the next day at noon. Jon met them at the door when they arrived, and let them in.",
+    "generated_text_1": " The technician took one look inside his refrigerator - which had been left open for two days by someone who didn't know how important refrigeration is!-and said that he couldn\u2019t fix anything because there wasn \u2019t",
+    "generated_text_2": " The man went into his kitchen while he waited for lunch.\nThe woman who had been waiting on her husband came out of their bedroom as soon after 12:00 p.m., but she didn't see anyone there",
+    "better_option": 1
+  },
+  {
+    "story": "Sal was playing his game constantly. He could not beat level 9 for anything! Then his cousin came over and offered to help him. The two boys played side by side.",
+    "generated_text_1": " They were both very good at the same time.\nWhen they finished, Sal said \u201cI think I can do it!\u201d\nHis friend nodded in agreement as he started on Level Ten!\n",
+    "generated_text_2": " Sal had a lot of fun, but he did get frustrated at times.\nThe next day they went back again with their friend\u2019s dad who is an expert player on the computer games that",
+    "better_option": 2
+  },
+  {
+    "story": "Billy wanted to become a doctor. He went to college to become a doctor. After he graduated with his degree, he changed his mind. Billy became a nurse instead of a doctor.",
+    "generated_text_1": " What happened?\nA.Billy was not able or willing enough.\nB.He had no interest in becoming one\nC.he did what everyone else does and got the job anyway!\nD.The school",
+    "generated_text_2": "",
+    "better_option": 1
+  },
+  {
+    "story": "Abby skated on her rollerblades down the driveway. Her father was pulling in and didn't see her. He accidentally hit her as she skated down. Abby's arm was broken.",
+    "generated_text_1": " She had to go into surgery.\nThe doctor told me that I would have a chance of walking again if they put pins through my leg, but it wasn\u2019t going well for him either because he broke his",
+    "generated_text_2": " She had to go into surgery.\nThe doctor told me that I would have a chance of walking again, but it might take months or years for my leg muscles not be strong enough yet.\"",
+    "better_option": 2
+  },
+  {
+    "story": "Gina was at her uncle's house out of state. Her parents were in the living room playing music. In the kitchen there was a beer can on the counter. She thought about taking a sip.",
+    "generated_text_1": " But she didn't want to get drunk, because it would be embarrassing for everyone.\nShe went into another bedroom and looked through some old pictures that had been hanging up since before Gina could remember them being hung-up",
+    "generated_text_2": " But she didn't want to be rude and ask for it.\nShe went into another bedroom, closed herself inside with some clothes that had been hanging up all summer long (she'd forgotten they even existed). Then",
+    "better_option": 1
+  },
+  {
+    "story": "Lance and Adam were best friends. When Lance joined the Army, Adam signed up, too. They were in the same unit and were deployed together. Lance took a bullet for Adam.",
+    "generated_text_1": " He was killed.\nAdam\u2019s family is devastated by his death but they are comforted knowing that he died doing what made him happy \u2013 serving our country as an active duty soldier with 3 tours",
+    "generated_text_2": " Now they are both dead.\nAdam's wife is still grieving when she meets an old friend of hers who was also killed by one or more soldiers while serving overseas during Operation Enduring Freedom (O",
+    "better_option": 1
+  },
+  {
+    "story": "My daughter had her baby shower in our Boston home. She invited friends and family in the area. Her old college roommate lives in Hawaii. She decided to surprise my daughter by flying 4800 miles.",
+    "generated_text_1": " I was so excited for this special day.\nI wanted a beautiful cake that would be perfect with all of these wonderful people gathered together, but it also needed something simple enough not too take up much time on such",
+    "generated_text_2": " I was so excited for them both.\nI am a very private person, but this is one of those times when you want people around just because they are there! My husband has been working on his new house",
+    "better_option": 1
+  },
+  {
+    "story": "Mark and Molly had reservations for a popular restaurant. When they arrived the hostess seated them at their table. They ordered from the menu and waited on their food. When dessert arrived Mark asked Molly to marry him.",
+    "generated_text_1": " She refused, saying she was not ready yet.\nThe next day when he returned home with his new wife in tow,he told her that if ever there were two people who should be married it would have been themselves!",
+    "generated_text_2": " She said yes.\nThe couple returned home, got married in church that evening with family members present as witnesses then went out dancing all night long!",
+    "better_option": 2
+  },
+  {
+    "story": "Last week the internet went out. My wife and I were bored out of our minds. Every other option available seemed boring. Eventually we just drank and talked for a while.",
+    "generated_text_1": " We had to get up early, so it was time.\nI got my first taste in life when i started working at 14 years old as an apprentice electrician with some local",
+    "generated_text_2": " We had no idea what to do, so decided that maybe it was time someone else did.\nI called my friend David who is an electrical engineer at NASA Ames Research Center in California",
+    "better_option": 2
+  },
+  {
+    "story": "Dave decided one day he wanted to go see a hockey game. He ordered a few tickets. He then invited some of his friends. They all went to the game, and had a good time",
+    "generated_text_1": ".\nA week later Dave called up another friend who was also interested in going out for dinner that night with him but didn't have any plans yet because they were still at work on Monday morning when it",
+    "generated_text_2": ".\nAfterwards they were talking about how much fun it was when Dave got home from work that evening at 6:00 PM with $100 in cash!",
+    "better_option": 2
+  },
+  {
+    "story": "Ted always wanted to be a senator. He finally got the chance to run. He was eager to make a difference. Unfortunately a personal issue derailed his campaign.",
+    "generated_text_1": " Now he is running for governor.\nHe has been working hard on getting re-elected as mayor of New York City, but now that Ted wants something more important than just being Mayor",
+    "generated_text_2": " Now he is running for mayor of New York City.\nThe city has been in chaos since 9/11 and Ted wants change, but how can you get elected when everyone",
+    "better_option": 2
+  },
+  {
+    "story": "Chuck joints creaked as he stood up from the computer. It was a short walk to the side table where he had left his phone. He was going to make one quick phone call before returning to work. The dogs met him at the door with earnest faces.",
+    "generated_text_1": " They were always eager for Chuck\u2019s attention.\nHe picked them both into their crates and carried each of those out, too; they would be safe in there until after dinner time when it seemed like everyone else might return home soon enough that no more food needed making or dishes washed",
+    "generated_text_2": " They were happy that their master would be back soon.\nHe sat down in front of them and rubbed each dog\u2019s head, then picked out an apple for himself while they waited patiently on either end or tail wagging happily when it came time again\nThe next day Chuck walked",
+    "better_option": 1
+  },
+  {
+    "story": "After math class, I decided to go to the library. I caught up on some assignments. I had to wait several hours for my mom to pick me up. Since I was extremely tired, I fell asleep completely.",
+    "generated_text_1": " When we got home from school and went upstairs into our room (which is where all of us kids sleep), there were two girls in bed with their heads together.\nI walked over towards them because they looked like a couple who",
+    "generated_text_2": "",
+    "better_option": 1
+  },
+  {
+    "story": "A man dug a well on his farm. Instead of water, though, he struck oil. Jubilant, he placed some calls. A large oil company arrived the next day.",
+    "generated_text_1": " They offered him $10 million to drill another hole in exchange for 50% ownership.\nThe farmer said no way! He was going back into business with an old friend and they were drilling",
+    "generated_text_2": " The representative asked him if there was any way to get more out.\nThe farmer said that it would be difficult because they had drilled so deep and were not able find anything else but what came",
+    "better_option": 1
+  },
+  {
+    "story": "Gina's dad pulled into the 24 hour Walgreen's parking lot. It was nearly 4 AM but everyone went inside. They needed toothbrushes before they went to grandma's house. It was Gina's job to pack them before they left.",
+    "generated_text_1": " She had a list of things she wanted for her birthday and it included some new clothes, shoes that were comfortable enough not too dressy or fancy.\nShe took out all sorts from jeans with holes in one side (she didn't like those) shorts without pockets on",
+    "generated_text_2": " She had just finished packing when her mom came in and said she could go with Grandma.\n\"Mom, I'm not going,\" replied a very upset little girl as tears streamed down from both eyes of this sweet child who loved Grandpa more than anything else on earth",
+    "better_option": 2
+  },
+  {
+    "story": "One day I was walking on the sidewalk. I saw an old dog on the driveway nearby. He looked at me and barked. I tried to run away because I was startled.",
+    "generated_text_1": " But he kept coming after my legs.\nI ran into a house, but it wasn\u2019t safe there either so that\u2019s when we went back outside again! This time though\u2026we were in",
+    "generated_text_2": " But he followed my trail, so when we got back home together.\nI told him that it\u2019s not good for dogs if they follow people around all over town like this one does! And",
+    "better_option": 1
+  },
+  {
+    "story": "Timmy was caught with unpaid parking tickets. He didn't have enough money to pay for them. Instead he had to be arrested and jailed for two days. He lost his jobs for missing work.",
+    "generated_text_1": " His family couldn\u2019t afford the bail bond, so they were forced into homelessness.\nThe City of New York is a city that has been struggling financially since 2008 when it experienced one its worst financial crises",
+    "generated_text_2": " His friends stopped talking, they were too embarrassed.\nHe went through a lot of pain because the police took him away from home without any reason or explanation at all! Timy's family is very worried about",
+    "better_option": 1
+  },
+  {
+    "story": "Sarah had been dreaming of visiting Europe for years. She had finally saved enough for the trip. She landed in Spain and traveled east across the continent. She didn't like how different everything was.",
+    "generated_text_1": " The food, people's clothes...it all seemed so foreign to her.\nShe found a hostel that she liked but it wasn\u2019t cheap at $30 per night (which is what they charged). So",
+    "generated_text_2": " The people were so much more reserved than she expected, but that wasn\u2019t too surprising since they spoke a completely new language.\nShe found herself at an outdoor market where there seemed to be nothing on sale",
+    "better_option": 1
+  },
+  {
+    "story": "Sarah was out with her friends. She had been watching a movie at the theater. Sarah lost track of time and arrived back at home late. She missed her curfew by a few hours.",
+    "generated_text_1": " Her parents were angry that she did not come straight to them when they called.\nWhat is your age? (In years)\nHow old are you in months?\nWhen do I have my next birthday party",
+    "generated_text_2": " Her parents were very angry when they found that she came in after midnight.\nWhat is this story about?\nA) A boy who went to school\nB ) An old man\u2019s wife died suddenly C",
+    "better_option": 2
+  },
+  {
+    "story": "I heard that dog parks were good for dogs. One day, I decided to get my dog and go to the park. I put my dog on a leash and got in the car. We finally arrived at the neighborhood park.",
+    "generated_text_1": " The first thing we did was walk around looking into all of its different areas.\nThere are many trees there which provide shade from hot summer days as well! There is also grassy area where people can play soccer or frisbee with",
+    "generated_text_2": " There was another family with two small children there.\nMy little girl ran over towards them while her brother chased after me like he wanted something from us! The mother of these kids looked up as if she didn\u2019t know what we had done",
+    "better_option": 1
+  },
+  {
+    "story": "Last Saturday I went to an Azalea concert. The concert was amazing. I got to be in the front row. After the show I went backstage to meet her.",
+    "generated_text_1": " She is a very nice person and she signed my CD.\nI have been trying out for years but never made it, so this time i finally did!",
+    "generated_text_2": " She is so nice and sweet.\nI also saw a movie called \"The Blind Side\". It's about this girl who gets adopted by these people, but she doesn't know that",
+    "better_option": 1
+  },
+  {
+    "story": "One day I decided I wanted to walk into town. It wasn't far from my house, only a few miles! Once I arrived in town I decided to stop for coffee. I chose an awesome little shop and sat down for lunch.",
+    "generated_text_1": " The owner was there with his wife serving me the best food ever.\nI had just finished eating when he came up behind him saying \"Hey you!\" He turned around quickly as if startled by someone's presence but then smiled at her like nothing happened",
+    "generated_text_2": " The owner was so friendly that she offered me some of her homemade bread with butter.\nI took the opportunity while we were chatting about life (she had just lost someone close)and asked if it would be alright? She said sure!\nSo here",
+    "better_option": 1
+  },
+  {
+    "story": "Tom liked to look at old cars. For his birthday, his family got him tickets to a classic car museum. Tom thought it was a wonderful gift. His family accompanied him to the museum.",
+    "generated_text_1": " They drove in their new SUV.\nThe next day they went back and visited another antique store where there were more interesting things than just antiques for sale: vintage clothes from different eras of history!",
+    "generated_text_2": " The first thing they saw were several vintage automobiles parked in front of an enormous building.\nThe next day he went with them on another tour around town and then back home again for lunch before going off by",
+    "better_option": 2
+  },
+  {
+    "story": "Mowgli had just moved to Los Angeles. She lived in Tennessee her whole life. Her first night in California she went out to look at the stars. She used to always do that growing up.",
+    "generated_text_1": " It was a beautiful sight, and it made Mowlgy feel like home.\nShe got back into bed after looking for as long of time possible but couldn\u2019t find anything new so decided on going outside again when",
+    "generated_text_2": " It was so beautiful, and it made Mowlgy feel like a kid again.\nShe walked around Hollywood Blvd for about an hour before deciding where exactly on this street would be best suited as home base of sorts",
+    "better_option": 2
+  }
+]
