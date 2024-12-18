@@ -19,7 +19,9 @@ mamba activate coherence-tuning # create this if needed
 
 cd /projects/$USER/porc/src/
 
-for loss in hinge ipo nca_pair robust 
-do
-	python tune_model.py --output_dir "/scratch/alpine/${USER}/porc/gpt2" --loss_fn $loss
-done
+# for loss in hinge ipo nca_pair robust
+# do
+	# python tune_model.py --output_dir "/scratch/alpine/${USER}/porc/gpt2" --loss_fn $loss
+# done
+
+python tune_model.py --output_dir "/scratch/alpine/${USER}/porc/gpt2"

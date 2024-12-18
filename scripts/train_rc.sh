@@ -19,4 +19,11 @@ mamba activate coherence-tuning # create this if needed
 
 cd /projects/$USER/porc/src/
 
-python tune_model.py --output_dir "/scratch/alpine/${USER}/porc" --model_key "meta-llama/Llama-3.2-1B"
+python tune_model.py \
+        --output_dir "/scratch/alpine/${USER}/porc" \
+        --dataset "lecslab/porc-gpt2-v1"
+
+python tune_model.py \
+        --output_dir "/scratch/alpine/${USER}/porc" \
+        --model_key "meta-llama/Llama-3.2-1B" \
+        --dataset "lecslab/porc-llama3_1_1b-v1"
