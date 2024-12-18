@@ -1,3 +1,4 @@
+'''Merges the results of multiple annotators for the GPT2 outputs'''
 import datasets
 import json
 
