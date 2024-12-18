@@ -16,7 +16,7 @@ From Llama completeions:
     "story": "Sarah had been dreaming of visiting Europe for years. She had finally saved enough for the trip. She landed in Spain and traveled east across the continent. She didn't like how different everything was.",
     "generated_text_1": " The food, people's clothes...it all seemed so foreign to her.\nShe found a hostel that she liked but it wasn\u2019t cheap at $30 per night (which is what they charged). So",
     "generated_text_2": " The people were so much more reserved than she expected, but that wasn\u2019t too surprising since they spoke a completely new language.\nShe found herself at an outdoor market where there seemed to be nothing on sale",
-        "better_option": 1
+    "better_option": 1
 }
 
 
