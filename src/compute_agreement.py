@@ -1,4 +1,5 @@
 import argparse
+from collections import defaultdict
 from math import sqrt
 import datasets
 from typing import cast
@@ -13,25 +14,27 @@ def main():
     args = parser.parse_args()
     dataset = cast(datasets.DatasetDict, datasets.load_dataset(args.dataset))
 
-    count = 0
-    matched = 0
+    annotator_stats = defaultdict(lambda: {"count": 0, "matched": 0})
     for row in dataset['train']:
         annots = [row["mic_chosen"], row["mar_chosen"], row["ali_chosen"]] # type:ignore
+        annotator_names = frozenset((name for name, a in zip(["mic", "mar", "ali"], annots) if a))
         annots = [a for a in annots if a]
         if len(annots) == 2:
-            count += 1
-            if annots[0] == annots[1]:
-                matched += 1
+            annotator_stats[annotator_names]["count"] += 1
+            if len(set((a for a in annots if a))) == 1:
+                annotator_stats[annotator_names]["matched"] += 1
         elif len(annots) > 2:
-            raise ValueError()
+            raise ValueError(annotator_names)
 
-    print("Dual annotated: ", count)
-    print("Accuracy: ", matched / count)
-    print("Cohen's kappa: ", ((matched / count) - 0.5) / 0.5)
-
-    c = 1-(matched/count)
-    est_err = ((2 - sqrt(4 - 8*c)) / 4, (2 + sqrt(4 - 8*c)) / 4)
-    print("Estimated error: ", est_err)
+    for pair, stats in annotator_stats.items():
+        print(pair)
+        print("Dual annotated: ", stats["count"])
+        accuracy = stats["matched"] / stats["count"]
+        print("Accuracy: ", accuracy)
+        print("Cohen's kappa: ", ((accuracy) - 0.5) / 0.5)
+        c = 1-(accuracy)
+        est_err = ((2 - sqrt(4 - 8*c)) / 4, (2 + sqrt(4 - 8*c)) / 4)
+        print("Estimated error: ", est_err)
 
 
 if __name__ == "__main__":
