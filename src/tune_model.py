@@ -26,7 +26,7 @@ def tune_model(
         do_train=True,
         do_eval=True,
         eval_strategy="epoch",
-        num_train_epochs=75,
+        num_train_epochs=200,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
         output_dir=output_dir,

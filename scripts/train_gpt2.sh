@@ -24,4 +24,6 @@ cd /projects/$USER/porc/src/
 	# python tune_model.py --output_dir "/scratch/alpine/${USER}/porc/gpt2" --loss_fn $loss
 # done
 
-python tune_model.py --output_dir "/scratch/alpine/${USER}/porc/gpt2"
+python tune_model.py \
+        --output_dir "/scratch/alpine/${USER}/porc/gpt2" \
+        --dataset "lecslab/porc-gpt2-v1"

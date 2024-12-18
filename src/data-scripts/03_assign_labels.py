@@ -22,7 +22,7 @@ for key in ["lecslab/porc-llama3_1_1b-v1", "lecslab/porc-gpt2-v1"]:
 
         chosen = texts[label-1] if label != 0 else None
         rejected = texts[2-label] if label != 0 else None
-        return {"chosen": chosen, "rejected": rejected}
+        return {"chosen": chosen, "rejected": rejected, "prompt": row["story"]}
 
     data = data.map(assign_labels, batched=False)
     data = data.filter(lambda row: row["chosen"] is not None)
