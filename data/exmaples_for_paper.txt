@@ -17,8 +17,14 @@ From Llama completeions:
     "generated_text_1": " The food, people's clothes...it all seemed so foreign to her.\nShe found a hostel that she liked but it wasn\u2019t cheap at $30 per night (which is what they charged). So",
     "generated_text_2": " The people were so much more reserved than she expected, but that wasn\u2019t too surprising since they spoke a completely new language.\nShe found herself at an outdoor market where there seemed to be nothing on sale",
     "better_option": 1
-}
-
+  },
+## both bad
+{
+    "story": "One day I was walking on the sidewalk. I saw an old dog on the driveway nearby. He looked at me and barked. I tried to run away because I was startled.",
+    "generated_text_1": "\n\"He said, 'I don't know what you're doing here.' \" She says she didn\ufffdt hear him say anything but that he had a gun in his hand.",
+    "generated_text_2": "\n\"I thought, 'What's going wrong?' \" he said later in a phone interview from his home outside of Los Angeles where they have been living together for more than 20 years",
+    "better_option": 2
+  }
 
 
 
