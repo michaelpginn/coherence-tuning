@@ -1,5 +1,6 @@
 import argparse
 import datasets
+from typing import cast
 
 def main():
     parser = argparse.ArgumentParser()
@@ -9,12 +10,12 @@ def main():
         default="lecslab/porc-llama3_1_1b-v1",
     )
     args = parser.parse_args()
-    dataset = datasets.load_dataset(args.dataset)
+    dataset = cast(datasets.DatasetDict, datasets.load_dataset(args.dataset))
 
     count = 0
     matched = 0
     for row in dataset['train']:
-        annots = [row["mic_chosen"], row["mar_chosen"], row["ali_chosen"]]
+        annots = [row["mic_chosen"], row["mar_chosen"], row["ali_chosen"]] # type:ignore
         annots = [a for a in annots if a]
         if len(annots) == 2:
             count += 1
