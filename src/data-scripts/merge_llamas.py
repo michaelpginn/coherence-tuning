@@ -4,12 +4,12 @@ import datasets
 import json
 
 # Maria annotated 1-50 and 100-150
-with open("data/generated_texts_gpt2_0.3.maria.json") as f:
+with open("data/generated_texts_llama3.2_0.3.maria.json") as f:
     texts_maria = json.load(f)
 
 # Ali annotated 1-50
 # Michael annotated 50-100
-with open("data/generated_texts_gpt2_0.3.michael.json") as f:
+with open("data/generated_texts_llama3.2_0.3.michael.json") as f:
     texts_michael_ali = json.load(f)
 
 if (len(texts_maria) != len(texts_michael_ali)):
