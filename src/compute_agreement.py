@@ -1,4 +1,5 @@
 import argparse
+from math import sqrt
 import datasets
 from typing import cast
 
@@ -27,6 +28,10 @@ def main():
     print("Dual annotated: ", count)
     print("Accuracy: ", matched / count)
     print("Cohen's kappa: ", ((matched / count) - 0.5) / 0.5)
+
+    c = 1-(matched/count)
+    est_err = ((2 - sqrt(4 - 8*c)) / 4, (2 + sqrt(4 - 8*c)) / 4)
+    print("Estimated error: ", est_err)
 
 
 if __name__ == "__main__":
