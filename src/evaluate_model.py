@@ -33,6 +33,7 @@ def evaluate_model(
 
     wins = 0  # How many times does the model prefer the chosen completion?
     margins = []  # Average nll_reject - nll_chosen, wider margin is better
+    preds = []
 
     for row in tqdm(test_dataset, desc="Running inference..."):
         row = cast(typing.Mapping, row)
@@ -95,14 +96,18 @@ def evaluate_model(
 
         wins += torch.sum(nll_chosen < nll_reject).item()
         margins.extend((nll_reject - nll_chosen).tolist())
+        preds.extend((nll_chosen < nll_reject).tolist())
 
     mean_margin = math.exp(
         -1 * sum(margins) / len(margins)
     )  # Convert back to probability
 
+    breakpoint()
+
     return {
         "test/average": wins / len(test_dataset),
         "test/mean_margin": mean_margin,
+        "test/preds": preds
     }
 
 

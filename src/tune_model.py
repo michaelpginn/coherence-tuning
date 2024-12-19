@@ -110,8 +110,15 @@ if __name__ == "__main__":
 
     # Run another evaluation
     print("Final evaluation:")
+    eval_result = evaluate_model(
+        test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer
+    )
+    preds = eval_result["test/preds"]
+    del eval_result["test/preds"]
     wandb.log(
-        evaluate_model(
-            test_dataset=dataset["test"], model=trained_model, tokenizer=tokenizer
-        )
+        eval_result
+    )
+    preds = wandb.Table(
+        columns=["story", "chosen", "rejected", "correct?"],
+        data=[dataset["test"]["story"], dataset["test"]["chosen"], dataset["test"]["rejected"], preds]
     )
