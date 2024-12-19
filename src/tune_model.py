@@ -85,7 +85,7 @@ if __name__ == "__main__":
     wandb.init(
         entity="lecs-general",
         project="coherence-tuning",
-        config={"model_key": args.model_key, "loss_fn": args.loss_fn, "dataset": args.dataset},
+        config=vars(args),
     )
 
     dataset = datasets.load_dataset(args.dataset)
