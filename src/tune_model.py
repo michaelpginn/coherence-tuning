@@ -29,7 +29,7 @@ def tune_model(
         do_train=True,
         do_eval=True,
         eval_strategy="epoch",
-        num_train_epochs=200,
+        num_train_epochs=200 if not use_lora else 1000,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
         output_dir=output_dir,
@@ -103,7 +103,7 @@ if __name__ == "__main__":
         model=model,
         tokenizer=tokenizer,
         loss_fn=args.loss_fn,
-        use_lora=args.verbose,
+        use_lora=args.use_lora,
         label_smoothing_p=args.label_smoothing
     )
 
