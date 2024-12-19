@@ -118,7 +118,8 @@ if __name__ == "__main__":
     wandb.log(
         eval_result
     )
+    data = [dataset["test"]["story"], dataset["test"]["chosen"], dataset["test"]["rejected"], preds]
     preds = wandb.Table(
         columns=["story", "chosen", "rejected", "correct?"],
-        data=[dataset["test"]["story"], dataset["test"]["chosen"], dataset["test"]["rejected"], preds]
+        data=[list(i) for i in zip(*data)]
     )
