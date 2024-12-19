@@ -13,7 +13,7 @@ x = np.arange(len(models))
 width = 0.25
 multiplier = 0
 
-fig, ax = plt.subplots(layout='constrained')
+fig, ax = plt.subplots(figsize=(5, 4), layout='constrained')
 
 for idx, (attribute, measurement) in enumerate(scores.items()):
     offset = width * multiplier
@@ -24,7 +24,7 @@ for idx, (attribute, measurement) in enumerate(scores.items()):
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_ylabel('Accuracy')
 ax.set_xticks(x + width * (len(scores) - 1) / 2, models)
-ax.legend(loc='upper left', ncols=3)
+ax.legend(loc='upper left', ncols=1)
 ax.set_ylim(0, 100)
 
 plt.savefig("story_cloze_bar_chart.pdf", bbox_inches='tight')

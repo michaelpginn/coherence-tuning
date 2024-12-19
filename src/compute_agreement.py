@@ -9,7 +9,7 @@ def main():
     parser.add_argument(
         "-d",
         "--dataset",
-        default="lecslab/porc-llama3_1_1b-v1",
+        default="lecslab/porc-llama3_1_1b-v1-all",
     )
     args = parser.parse_args()
     dataset = cast(datasets.DatasetDict, datasets.load_dataset(args.dataset))
@@ -33,7 +33,8 @@ def main():
         print("Accuracy: ", accuracy)
         print("Cohen's kappa: ", ((accuracy) - 0.5) / 0.5)
         c = 1-(accuracy)
-        est_err = ((2 - sqrt(4 - 8*c)) / 4, (2 + sqrt(4 - 8*c)) / 4)
+        p_annot_err = min((2 - sqrt(4 - 8*c)) / 4, (2 + sqrt(4 - 8*c)) / 4)
+        est_err = (p_annot_err * p_annot_err) / (p_annot_err * p_annot_err + (1-p_annot_err) * (1-p_annot_err))
         print("Estimated error: ", est_err)
 
 

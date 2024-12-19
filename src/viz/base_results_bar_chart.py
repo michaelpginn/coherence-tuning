@@ -13,7 +13,7 @@ x = np.arange(len(models))
 width = 0.25
 multiplier = 0
 
-fig, ax = plt.subplots(layout='constrained')
+fig, ax = plt.subplots(figsize=(5, 4), layout='constrained')
 
 for idx, (attribute, measurement) in enumerate(scores.items()):
     offset = width * multiplier

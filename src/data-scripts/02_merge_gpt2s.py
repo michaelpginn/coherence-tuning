@@ -28,6 +28,6 @@ for item1, item2, idx in zip(texts_maria, texts_michael_ali, range(len(texts_mar
 data = datasets.Dataset.from_list(merged_data)
 # data = data.train_test_split(test_size=0.3)
 data = data.remove_columns(["better_option"])
-data.push_to_hub("lecslab/porc-gpt2-v1")
+data.push_to_hub("lecslab/porc-gpt2-v1-all")
 
-data.to_json("data/porc-gpt2-merged.json", lines=False)
+# data.to_json("data/porc-gpt2-merged.json", lines=False)

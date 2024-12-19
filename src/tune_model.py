@@ -29,18 +29,19 @@ def tune_model(
         do_train=True,
         do_eval=True,
         eval_strategy="epoch",
-        num_train_epochs=200 if not use_lora else 1000,
+        num_train_epochs=200 if not use_lora else 400,
         per_device_train_batch_size=4,
         per_device_eval_batch_size=4,
         output_dir=output_dir,
         report_to="wandb",
         loss_type=loss_fn, # type:ignore
         save_total_limit=3,
+        learning_rate=1e-6 if not use_lora else 2e-4
     )
 
     if use_lora:
-        lora_config = peft.LoraConfig()
-        model = peft.get_peft_model(model, lora_config)
+        lora_config = peft.LoraConfig(r=8) # type:ignore
+        model = peft.get_peft_model(model, lora_config) # type:ignore
 
 
     trainer = trl.DPOTrainer(
