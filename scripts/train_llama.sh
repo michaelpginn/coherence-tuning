@@ -22,4 +22,6 @@ cd /projects/$USER/porc/src/
 python tune_model.py \
         --output_dir "/scratch/alpine/${USER}/porc/llama3" \
         --model_key "meta-llama/Llama-3.2-1B" \
-        --dataset "lecslab/porc-llama3_1_1b-v1"
+        --dataset "lecslab/porc-llama3_1_1b-v1" \
+        --loss_fn robust \
+        --label_smoothing 0.062

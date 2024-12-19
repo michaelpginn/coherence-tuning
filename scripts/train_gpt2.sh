@@ -26,4 +26,6 @@ cd /projects/$USER/porc/src/
 
 python tune_model.py \
         --output_dir "/scratch/alpine/${USER}/porc/gpt2" \
-        --dataset "lecslab/porc-gpt2-v1"
+        --dataset "lecslab/porc-gpt2-v1" \
+        --loss_fn robust \
+        --label_smoothing 0.048

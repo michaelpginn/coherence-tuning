@@ -6,6 +6,7 @@ from typing import cast
 import datasets
 import transformers
 import trl
+import peft
 
 import wandb
 from evaluate_model import evaluate_model
@@ -17,12 +18,14 @@ def tune_model(
     model: transformers.PreTrainedModel,
     tokenizer: transformers.PreTrainedTokenizerFast,
     loss_fn: str,
+    use_lora: bool,
+    label_smoothing_p: float = 0,
 ):
     if not tokenizer.pad_token:
         tokenizer.pad_token = tokenizer.eos_token
 
     training_config = trl.DPOConfig(
-        label_smoothing=0.5 if loss_fn == "robust" else 0,
+        label_smoothing=label_smoothing_p,
         do_train=True,
         do_eval=True,
         eval_strategy="epoch",
@@ -34,6 +37,12 @@ def tune_model(
         loss_type=loss_fn, # type:ignore
         save_total_limit=3,
     )
+
+    if use_lora:
+        lora_config = peft.LoraConfig()
+        model = peft.get_peft_model(model, lora_config)
+
+
     trainer = trl.DPOTrainer(
         model=model,
         args=training_config,
@@ -65,7 +74,12 @@ if __name__ == "__main__":
         help="See https://huggingface.co/docs/trl/main/en/dpo_trainer#loss-functions",
         default="sigmoid",
     )
+    parser.add_argument(
+        "--use_lora",
+        action='store_true',
+    )
     parser.add_argument("-d", "--dataset", default="lecslab/story_cloze")
+    parser.add_argument("--label_smoothing", default=0)
     args = parser.parse_args()
 
     wandb.init(
@@ -89,6 +103,8 @@ if __name__ == "__main__":
         model=model,
         tokenizer=tokenizer,
         loss_fn=args.loss_fn,
+        use_lora=args.verbose,
+        label_smoothing_p=args.label_smoothing
     )
 
     # Run another evaluation
