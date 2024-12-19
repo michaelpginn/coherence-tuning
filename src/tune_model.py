@@ -79,7 +79,7 @@ if __name__ == "__main__":
         action='store_true',
     )
     parser.add_argument("-d", "--dataset", default="lecslab/story_cloze")
-    parser.add_argument("--label_smoothing", default=0)
+    parser.add_argument("--label_smoothing", default=0, type=float)
     args = parser.parse_args()
 
     wandb.init(
@@ -104,7 +104,7 @@ if __name__ == "__main__":
         tokenizer=tokenizer,
         loss_fn=args.loss_fn,
         use_lora=args.use_lora,
-        label_smoothing_p=args.label_smoothing
+        label_smoothing_p=float(args.label_smoothing)
     )
 
     # Run another evaluation
