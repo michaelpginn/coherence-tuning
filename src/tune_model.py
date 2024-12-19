@@ -119,7 +119,8 @@ if __name__ == "__main__":
         eval_result
     )
     data = [dataset["test"]["story"], dataset["test"]["chosen"], dataset["test"]["rejected"], preds]
-    preds = wandb.Table(
+    preds_table = wandb.Table(
         columns=["story", "chosen", "rejected", "correct?"],
         data=[list(i) for i in zip(*data)]
     )
+    wandb.log({"predictions": preds_table})
