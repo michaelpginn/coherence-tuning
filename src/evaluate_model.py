@@ -102,8 +102,6 @@ def evaluate_model(
         -1 * sum(margins) / len(margins)
     )  # Convert back to probability
 
-    breakpoint()
-
     return {
         "test/average": wins / len(test_dataset),
         "test/mean_margin": mean_margin,
